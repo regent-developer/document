@@ -114,4 +114,4 @@ systemctl restart docker
 4，<https://www.cnblogs.com/caoweixiong/p/12186736.html>
 
 ## 目标主机
-青云主机
+QINGCloud（主机：centos8）
