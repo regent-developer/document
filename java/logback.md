@@ -60,4 +60,7 @@ public class ALogFilter extends Filter<ILoggingEvent> {
 MDC.put("type", "a");
 ```
 
-说明：分别定义两个包的自定义过滤器ALogFilter和BLogFilter，制定放行规则，在logback.xml中设置sql log输出的位置添加A和B的过滤器，依据MDC的设置来控制log输出是否放行。
+说明：分别定义两个包的自定义过滤器ALogFilter和BLogFilter，制定放行规则，在logback.xml中设置sql log输出的位置添加A和B的过滤器，依据MDC的设置来控制log输出是否放行。  
+  
+  
+2020/9/18
