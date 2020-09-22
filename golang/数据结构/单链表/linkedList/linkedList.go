@@ -2,8 +2,10 @@ package linkedList
 
 import "fmt"
 
+// 数据域类型（任意类型）
 type Object interface{}
  
+// 定义节点
 type Node struct{
 	// 数据域
 	Data Object
@@ -11,6 +13,7 @@ type Node struct{
 	Next *Node
 }
 
+// 定义链表
 type List struct{
 	// 头节点
 	headNode *Node
