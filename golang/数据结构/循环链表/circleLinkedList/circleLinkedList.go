@@ -1,6 +1,6 @@
 package circleLinkedList
 
-import "fmt"
+//import "fmt"
 
 // 数据域类型（任意类型）
 type Object interface{}
@@ -79,7 +79,7 @@ func (this *List) Remove(node *Node) Object {
 	for ; (*item).Next != this.GetHead(); item = (*item).Next {}
 
 	(*item).Next = (*node).Next
-	(*this).GetSize()--
+	this.size--
 
 	return (*node).GetData()
 }
