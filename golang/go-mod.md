@@ -78,5 +78,5 @@ go env -w GOPRIVATE=*.gitlab.com,*.gitee.com//设置GOPRIVATE来跳过私有库�
 
 go env -w GOSUMDB=off//Go 1.13设置了默认的GOSUMDB=sum.golang.org，这个网站是被墙了的，用于验证包的有效性,可以通过命令关闭
 
-go env -w GOSUMDB="sum.golang.google.cn"//可以设置 GOSUMDB="sum.golang.google.cn"， 这个是专门为国内提供的sum 验证服务。
+go env -w GOSUMDB="sum.golang.google.cn"//可以设置 GOSUMDB="sum.golang.google.cn"， 这个是专门为国内提供的sum验证服务。
 ```
