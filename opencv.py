@@ -20,4 +20,4 @@ for pt in zip(loc[::-1]):
 
 cv2.imshow("Matched image", img_rgb)
 cv2.waitKey()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() 
