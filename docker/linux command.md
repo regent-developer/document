@@ -17,4 +17,8 @@ cat /etc/issue
 
 ```
 
-## 
+## 后台执行
+
+```bash
+nohup [命令] > nohup.log 2>&1 &
+```
