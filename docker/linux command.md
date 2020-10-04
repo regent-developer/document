@@ -24,7 +24,7 @@ nohup [命令] > nohup.log 2>&1 &
 ```
 
 
-##实时刷新查看日志
+## 实时刷新查看日志
 
 ```bash
 tail -f nohup.log
