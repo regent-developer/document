@@ -17,4 +17,15 @@ cat /etc/issue
 
 ```
 
-## 
+## 后台执行
+
+```bash
+nohup [命令] > nohup.log 2>&1 &
+```
+
+
+## 实时刷新查看日志
+
+```bash
+tail -f nohup.log
+```
