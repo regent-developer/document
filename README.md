@@ -4,3 +4,9 @@
 ## markdown
 ## golang
 ## python
+## typescript
+## weixin
+## vuejs
+## db
+## app
+
