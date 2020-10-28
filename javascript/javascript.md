@@ -4,7 +4,7 @@
 
 如果短时间内大量触发同一事件，只会执行一次函数。
 
-'''js
+```js
 
 function debounce(func, wait){
     let timeout;
@@ -18,11 +18,11 @@ function debounce(func, wait){
     }
 }
 
-'''
+```
 
 ### 节流
 让函数执行一次后，在某个时间段内暂时失效，过了这段时间后再重新激活
-'''js
+```js
 function throttle(func, wait){
     let timeout;
         return function(){
@@ -34,4 +34,4 @@ function throttle(func, wait){
             }
     }
 }
-'''
+```
