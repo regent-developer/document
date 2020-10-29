@@ -33,21 +33,54 @@ CollectionUtils.disjunction(a, b);
 CollectionUtils.subtract(a, b);
 ```
 
-## 是否为数字Check
+## 是否只为数字Check
 ```java
-public static boolean isInteger(String str) {  
-    Pattern pattern = Pattern.compile("^[-\\+]?[\\d]*$");  
+public static boolean isNumber(String str) {  
+    Pattern pattern = Pattern.compile("^[0-9]+$");  
     return pattern.matcher(str).matches();  
 }
 ```
 
-## 是否为字母Check
+## 是否只为字母Check
 ```java
-public boolean isAlpha(String str) {
-    Pattern pattern = Pattern.compile("[a-zA-Z]+");  
+public boolean isAlphabet(String str) {
+    Pattern pattern = Pattern.compile("^[a-zA-Z]+$");  
     return pattern.matcher(str).matches();  
 }
 ```
+
+## 是否只为数字和字母Check
+```java
+public boolean isAlphabetNumber(String str) {
+    Pattern pattern = Pattern.compile("^[a-zA-Z0-9]+$");  
+    return pattern.matcher(str).matches();  
+}
+```
+
+
+
+## 位数Check
+```java
+// 是否为空
+GenericValidator.isBlankOrNull(str);
+
+// 位数相等
+public boolean isMatchLength(String str, int length) {
+    return str.codePointCount(0, str.length()) == length;
+}
+
+// 位数以内
+public boolean isLessOrEqualLength(String str, int length) {
+    return GenericValidator.maxLength(str, length);
+}
+
+// 位数范围
+public boolean isMatchRange(String str, int minLength, int maxLength) {
+    return value.codePointCount(0, str.length()) >= minLength && str.codePointCount(0, str.length()) <= maxLength;
+}
+```
+
+
 
 ## 是否为半角字符串Check
 ```java
