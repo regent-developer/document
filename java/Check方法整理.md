@@ -84,10 +84,25 @@ public boolean isMatchRange(String str, int minLength, int maxLength) {
 
 ## 是否为半角字符串Check
 ```java
+
 ```
-## 是否为全角字符串Check
+## 是否含有全角カナ字符串Check
 ```java
+public boolean hasZenkakuKatakana(String str) {
+    Pattern pattern = Pattern.compile(".*[ァ-ヴー].*");  
+    return pattern.matcher(str).matches(); 
+}
 ```
+
+## 是否只有全角かな字符串Check
+```java
+public boolean isHiragana(String str) {
+    Pattern pattern = Pattern.compile("^[ぁ-んー]+$");  
+    return pattern.matcher(str).matches(); 
+}
+```
+
+
 ## 是否为邮件Check
 ```java
 ```
