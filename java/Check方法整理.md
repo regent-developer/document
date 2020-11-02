@@ -86,6 +86,7 @@ public boolean isMatchRange(String str, int minLength, int maxLength) {
 ```java
 
 ```
+
 ## 是否含有全角カナ字符串Check
 ```java
 public boolean hasZenkakuKatakana(String str) {
