@@ -1,5 +1,7 @@
 # onblur和onclick冲突
 
+原因：js的单线程限制了只允许一个事件触发，onblur的优先性高于onclick
+
 ## 给onblur加settimeout，给onclick加cleartimeout
 ```js
 var timer;
