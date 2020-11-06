@@ -24,9 +24,9 @@ class Bus {
   }
 
   // 取消
-  $off(name) {
-    this.callbacks[name].pop()
-  }
+//  $off(name) {
+//    this.callbacks[name].pop()
+//  }
 }
 ```
 
