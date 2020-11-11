@@ -30,7 +30,9 @@ python --version
 ```
 
 ## OpenCV版本
+进入Python环境输入下面代码
 ```python
+import cv2
 print(cv2.__version__)
 ```
 
