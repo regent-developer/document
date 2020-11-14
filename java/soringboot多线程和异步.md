@@ -1,5 +1,5 @@
 ## Spring Boot之多线程、异步：@Async
-
+```java
 @Service
 @Async
 public class AsyncTaskService2 {
@@ -75,3 +75,4 @@ public class AsyncTaskController {
         return taskStatus;
     }
 }
+```
