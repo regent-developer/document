@@ -35,3 +35,11 @@ function throttle(func, wait){
     }
 }
 ```
+
+## 数组值变换
+```js
+let arr = [1,3,5,7,9];
+arr.forEach(function(item,index,arr){
+    arr[index] = 1;
+})
+```
