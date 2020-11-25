@@ -26,3 +26,18 @@ redis-server --service-install redis.windows.conf
 
 命令行输入redis-cli
 
+
+## geoadd
+
+geoadd 用于存储指定的地理空间位置，可以将一个或多个经度(longitude)、纬度(latitude)、位置名称(member)添加到指定的 key 中 
+
+GEOADD [key] [longitude] [latitude] [member]
+
+
+## georadiusbymember
+
+
+GEORADIUSBYMEMBER key member radius m|km|ft|mi [WITHCOORD] [WITHDIST] [WITHHASH] [COUNT count] [ASC|DESC] [STORE key] [STOREDIST key]
+
+
+
