@@ -39,5 +39,21 @@ GEOADD [key] [longitude] [latitude] [member]
 
 GEORADIUSBYMEMBER key member radius m|km|ft|mi [WITHCOORD] [WITHDIST] [WITHHASH] [COUNT count] [ASC|DESC] [STORE key] [STOREDIST key]
 
+## geopos
+
+查找指定key的经纬度信息  
+
+## geodist
+
+返回两个地方的距离，可以指定单位，比如米m，千米km，英里mi，英尺ft
+
+## georadius
+
+根据给定的经纬度，返回半径不超过指定距离的元素  
+
+## geohash
+
+返回的是geohash值  
+
 
 
