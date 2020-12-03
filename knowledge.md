@@ -10,4 +10,5 @@ Action Script的设计者是Gary Grossman,于1998年发布。它是原Macromedia
 ## Verilog
 Verilog由Gateway设计自动化公司的工程师于1983年末创立,并于1984年发布。它是一种用于描述、设计电子系统(特别是数字电路)的硬件描述语言,主要用于集成电路设计,特别是超大规模集成电路的计算机辅助设计。Verilog是电气电子工程师学会(lEEE)的1364号标准。
 
-## 
+## make
+make是一个工具程序,由Stuart Feldman于1977年在贝尔实验室开发。批处理( Batch)是一种简化的脚本语言,它应用于Dos和Windows系统中,由DOS或者 Windows系统内嵌的解释器(通常是COMMAND.COM或者CMD.EXE)解释运行。
