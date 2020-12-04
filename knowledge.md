@@ -1,7 +1,6 @@
 # Knowledge
 
 ## bash
-
 bash是 Unix shell的一种,在1987年由Brian Fox为了GNU计划而编写,并于1989年发布第一个正式版本。原本计划用在GNU操作系统上,但它也能运行于大多数类Unix系统的操作系统之上。Linux与 Mac OSX v10.4都将bash作为默认shell。
 
 ## Action Script
@@ -12,3 +11,6 @@ Verilog由Gateway设计自动化公司的工程师于1983年末创立,并于1984
 
 ## make
 make是一个工具程序,由Stuart Feldman于1977年在贝尔实验室开发。批处理( Batch)是一种简化的脚本语言,它应用于Dos和Windows系统中,由DOS或者 Windows系统内嵌的解释器(通常是COMMAND.COM或者CMD.EXE)解释运行。
+
+## Erlang
+Erlang由Joe Armstrong在瑞典电信设备制造商爱立信所辖的计算机科学研究室开发,并于1987年发布正式版本。Erlang从一开始就致力于解决大规模软件问题,设计用于自下而上地编写并发式、分布式、容错、可扩展和软实时系统的程序。
