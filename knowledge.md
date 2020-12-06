@@ -17,3 +17,6 @@ Erlang由Joe Armstrong在瑞典电信设备制造商爱立信所辖的计算机�
 
 ## Ruby
 1995年,松本行弘(Matz)设计并开发了Ruby。它是种面向对象、命令式、函数式、动态的通用编程语言,有丰富的类库,语法直观易懂。2004年, Rails创始人David Hansson发布了使用Ruby编写的开源Web应用框架 Ruby on Rails,后者的名气甚至一度超过了 Ruby
+
+## Go
+Go语言的设计者是 Robert griesemer、Rob pike及Kenneth Thompson, Google于2009年11月正式宣布推出。它是一种静态强类型、编译型、并发型,并具有垃圾回收功能的编程语言。作为新生代编程语言,Go近年来发展迅猛,被不少开发人员所追捧。
