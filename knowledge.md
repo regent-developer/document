@@ -20,3 +20,6 @@ Erlang由Joe Armstrong在瑞典电信设备制造商爱立信所辖的计算机�
 
 ## Go
 Go语言的设计者是 Robert griesemer、Rob pike及Kenneth Thompson, Google于2009年11月正式宣布推出。它是一种静态强类型、编译型、并发型,并具有垃圾回收功能的编程语言。作为新生代编程语言,Go近年来发展迅猛,被不少开发人员所追捧。
+
+## Perl
+1987年12月, Larry Wa开发了通用脚本语言Perl,以方便在Unⅸ上进行报表处理工作。Perl借用了C、sed、awk、 shell脚本以及很多其他编程语言的特性,且内部集成了正则表达式功能,它是通用的解释型动态语言。
