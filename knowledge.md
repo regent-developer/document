@@ -23,3 +23,6 @@ Go语言的设计者是 Robert griesemer、Rob pike及Kenneth Thompson, Google�
 
 ## Perl
 1987年12月, Larry Wa开发了通用脚本语言Perl,以方便在Unⅸ上进行报表处理工作。Perl借用了C、sed、awk、 shell脚本以及很多其他编程语言的特性,且内部集成了正则表达式功能,它是通用的解释型动态语言。
+
+## CoffeeScript
+CoffeeScript由Jeremy Ashkenas设计开发,并于2009年发布。它是一套JavaScript的转译语言,受到Ruby，Python与Haske等语言的启发,增强了JavaScript的简洁性与可读性。一般来说, Coffee Script可以在不影响运行性能的情况下,缩短约三分之一的代码长度。
