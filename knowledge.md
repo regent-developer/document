@@ -26,3 +26,6 @@ Go语言的设计者是 Robert griesemer、Rob pike及Kenneth Thompson, Google�
 
 ## CoffeeScript
 CoffeeScript由Jeremy Ashkenas设计开发,并于2009年发布。它是一套JavaScript的转译语言,受到Ruby，Python与Haske等语言的启发,增强了JavaScript的简洁性与可读性。一般来说, Coffee Script可以在不影响运行性能的情况下,缩短约三分之一的代码长度。
+
+## Visual Basic
+1991年4月,微软发布Visual Basic1.0 for Windows版本,由Alan Cooper设计开发,是第一个可视编程软件。它源于编程语言Basic,拥有图形用户界面和快速应用程序开发系统,可以轻易使用DAO、RDO、ADO连接数据库,或者轻松创建ActiveX控件。
