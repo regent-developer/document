@@ -29,3 +29,6 @@ CoffeeScript由Jeremy Ashkenas设计开发,并于2009年发布。它是一套Jav
 
 ## Visual Basic
 1991年4月,微软发布Visual Basic1.0 for Windows版本,由Alan Cooper设计开发,是第一个可视编程软件。它源于编程语言Basic,拥有图形用户界面和快速应用程序开发系统,可以轻易使用DAO、RDO、ADO连接数据库,或者轻松创建ActiveX控件。
+
+## SQL
+结构化查询语言,1970年代起源于1BM,是对Edgar Codd关系模型的第一个商业化语言实现。它是最广泛使用的数据库语言,在不同的数据库系统中往往有不同的实现,用于管理关系数据库管理系统(RDBMS),或在关系流数据管理系统(RDSMS)中进行流处理。
