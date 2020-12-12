@@ -32,3 +32,6 @@ CoffeeScript由Jeremy Ashkenas设计开发,并于2009年发布。它是一套Jav
 
 ## SQL
 结构化查询语言,1970年代起源于1BM,是对Edgar Codd关系模型的第一个商业化语言实现。它是最广泛使用的数据库语言,在不同的数据库系统中往往有不同的实现,用于管理关系数据库管理系统(RDBMS),或在关系流数据管理系统(RDSMS)中进行流处理。
+
+## Swift
+2014年6月,苹果在开发者年会(WWDC)上发布Swift,由LWM项目主要发起人、Clang编译器作者chisLattner在苹果公司内部主持开发,历时4年。它是一种支持多编程范式和编译式的编程语言,是用来开发 macos0sX、iOS、watchES和tOS的语言之一。
