@@ -44,3 +44,6 @@ Dart（/dart/或/da:t/是一种面向对象的开源编程语言但它采用基�
 
 ## Crystal
 Crystal的设计者是Ary Borenszweig,由Manas TechnologySolutions开发,于2014年发布。它是一门面向对象设计的通用编程语言,拥有与Ruby类似的语法。 Crystal编译器最开始使用Ruby编写,之后使用 Crystal本身重写。
+
+## D
+D语言由 Walter Bright和 Andrei Alexandrescu设计开发,于2007年1月发布第一个稳定版本。它起源自C++,是种具备面向对象、指令式等多范型的编程语言。D沿用了很多C/C+观念,同时摒弃了一些概念,因此不完全兼容CC++代码。
