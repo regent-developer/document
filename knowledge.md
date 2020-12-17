@@ -47,3 +47,8 @@ Crystal的设计者是Ary Borenszweig,由Manas TechnologySolutions开发,于2014
 
 ## D
 D语言由 Walter Bright和 Andrei Alexandrescu设计开发,于2007年1月发布第一个稳定版本。它起源自C++,是种具备面向对象、指令式等多范型的编程语言。D沿用了很多C/C+观念,同时摒弃了一些概念,因此不完全兼容CC++代码。
+
+## Ada
+Ada语言源于美国军方的一个计划,由 Pasca及其他语言扩展而成,比较接近自然语言和数学表达式,编程语言的命名是为了纪念第一位程序员 Ada Lovelace。Ada95由NTERMETRICS公司的 Tucker Taft于1992到1995年间设计。Ada的重要特征就是其嵌入式风格、模块化设计、编译检查、平行处理、异常处理及泛型编程。
+
+## 
