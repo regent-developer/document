@@ -57,8 +57,11 @@ e.DELETE("/users/:id", deleteUser)
 //参数：c 是上下文参数，关联了当前请求和响应，通过c参数我们可以获取请求参数，向客户端响应结果。
 func HandlerFunc(c echo.Context) error
 
+c.String()
 c.Param()
 c.QueryParam()
 c.FormValue()
+c.HTML()
+c.JSON()
 
 ```
