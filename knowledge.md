@@ -51,4 +51,5 @@ D语言由 Walter Bright和 Andrei Alexandrescu设计开发,于2007年1月发布
 ## Ada
 Ada语言源于美国军方的一个计划,由 Pasca及其他语言扩展而成,比较接近自然语言和数学表达式,编程语言的命名是为了纪念第一位程序员 Ada Lovelace。Ada95由NTERMETRICS公司的 Tucker Taft于1992到1995年间设计。Ada的重要特征就是其嵌入式风格、模块化设计、编译检查、平行处理、异常处理及泛型编程。
 
-## 
+## Lua
+Lua由里约热内卢天主教大学的 Roberto lerusalimschyWaldemar Celes和 Luiz Henrique de Figueiredo设计开发,于1993年发布。它是一个简洁、轻量、可扩展的脚本语言,可以很容易嵌入其他语言中使用。Lua是葡萄牙语中“月亮”的意思。
