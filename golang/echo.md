@@ -59,4 +59,6 @@ func HandlerFunc(c echo.Context) error
 
 c.Param()
 c.QueryParam()
+c.FormValue()
+
 ```
