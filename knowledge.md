@@ -53,3 +53,6 @@ Ada语言源于美国军方的一个计划,由 Pasca及其他语言扩展而成,
 
 ## Lua
 Lua由里约热内卢天主教大学的 Roberto lerusalimschyWaldemar Celes和 Luiz Henrique de Figueiredo设计开发,于1993年发布。它是一个简洁、轻量、可扩展的脚本语言,可以很容易嵌入其他语言中使用。Lua是葡萄牙语中“月亮”的意思。
+
+## Fortran
+Fortran由IBM在1957年开发,应用于IBM704系统上。它是世界上第一个被正式采用并流传至今的高级编程语言。其名称源自于Formula Translation(公式翻译）的缩写。
