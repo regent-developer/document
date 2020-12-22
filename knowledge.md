@@ -57,4 +57,5 @@ Lua由里约热内卢天主教大学的 Roberto lerusalimschyWaldemar Celes和 L
 ## Fortran
 Fortran由IBM在1957年开发,应用于IBM704系统上。它是世界上第一个被正式采用并流传至今的高级编程语言。其名称源自于Formula Translation(公式翻译）的缩写。
 
-## 
+## Julia
+Julia由 Jeff Bezanson、 Stefan Karpinski、 Viral Shah和 Alan Edelman等设计开发,于2012年发布。它是一个面向科学计算的高性能动态高级程序设计语言,语法与其他科学计算语言相似,在许多情况下拥有能与编译型语言相媲美的性能。
