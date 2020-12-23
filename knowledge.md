@@ -59,3 +59,6 @@ Fortran由IBM在1957年开发,应用于IBM704系统上。它是世界上第一�
 
 ## Julia
 Julia由 Jeff Bezanson、 Stefan Karpinski、 Viral Shah和 Alan Edelman等设计开发,于2012年发布。它是一个面向科学计算的高性能动态高级程序设计语言,语法与其他科学计算语言相似,在许多情况下拥有能与编译型语言相媲美的性能。
+
+## AWK
+AWK发布于1977年,设计者是 Alfred Aho、 Peter Weinberger以及 Brian Kernighan。它是一种优良的文本处理工具,是 Linux及Unⅸ环境中现有的功能最强大的数据处理引擎之一。
