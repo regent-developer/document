@@ -62,3 +62,6 @@ Julia由 Jeff Bezanson、 Stefan Karpinski、 Viral Shah和 Alan Edelman等设�
 
 ## AWK
 AWK发布于1977年,设计者是 Alfred Aho、 Peter Weinberger以及 Brian Kernighan。它是一种优良的文本处理工具,是 Linux及Unⅸ环境中现有的功能最强大的数据处理引擎之一。
+
+## Lisp
+Lisp起源于1958年,由 John McCarthy在麻省理工学院发明。它具有独特和完全括号的前缀符号表示法,是至今第二悠久而仍广泛使用的高级编程语言。因为是早期的高级编程语言之一,它很快成为当时人工智能研究中最受欢迎的编程语言。
