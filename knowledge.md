@@ -65,3 +65,6 @@ AWK发布于1977年,设计者是 Alfred Aho、 Peter Weinberger以及 Brian Kern
 
 ## Lisp
 Lisp起源于1958年,由 John McCarthy在麻省理工学院发明。它具有独特和完全括号的前缀符号表示法,是至今第二悠久而仍广泛使用的高级编程语言。因为是早期的高级编程语言之一,它很快成为当时人工智能研究中最受欢迎的编程语言。
+
+## scala
+scala是由洛桑联邦理工学院的 Martin Odersky于2001年基于 Funnel设计,并于2004年初发布Java平台版本。Scala是一门多范式的编程语言,设计初衷是要集成面向对象编程和函数式编程的各种特性。
