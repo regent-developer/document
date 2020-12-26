@@ -68,3 +68,6 @@ Lisp起源于1958年,由 John McCarthy在麻省理工学院发明。它具有独
 
 ## scala
 scala是由洛桑联邦理工学院的 Martin Odersky于2001年基于 Funnel设计,并于2004年初发布Java平台版本。Scala是一门多范式的编程语言,设计初衷是要集成面向对象编程和函数式编程的各种特性。
+
+## prolog
+最早由AX- Marseille大学的 Alain Colmerauer与 PhillipeRoussel等人于1960年代末研究开发,一般认为正式诞生于1972年。 Prolog是一种创建在逻辑学理论基础之上的逻辑编程语言,最初被运用于自然语言等硏究领域,现在已广泛应用在人工智能的研究中,包括建造专家系统、自然语言理解和智能知识库等。
