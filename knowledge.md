@@ -71,3 +71,6 @@ scala是由洛桑联邦理工学院的 Martin Odersky于2001年基于 Funnel设�
 
 ## prolog
 最早由AX- Marseille大学的 Alain Colmerauer与 PhillipeRoussel等人于1960年代末研究开发,一般认为正式诞生于1972年。 Prolog是一种创建在逻辑学理论基础之上的逻辑编程语言,最初被运用于自然语言等硏究领域,现在已广泛应用在人工智能的研究中,包括建造专家系统、自然语言理解和智能知识库等。
+
+## Clojure
+Clojure由 Rich Hickey开发,并于2007年发布。它是套现代的Lsp语言的动态语言版,可以执行于Java虚拟机、通用语言执行平台以及 JavaScript引擎之上。
