@@ -74,3 +74,8 @@ scala是由洛桑联邦理工学院的 Martin Odersky于2001年基于 Funnel设�
 
 ## Clojure
 Clojure由 Rich Hickey开发,并于2007年发布。它是套现代的Lsp语言的动态语言版,可以执行于Java虚拟机、通用语言执行平台以及 JavaScript引擎之上。
+
+## Kotlin
+Kotlin由 JetBrains于2011年7月推出,它是一种在Java虚拟机上运行的静态类型编程语言,也可以被编译成为 JavaScript源代码。虽然与Java语法并不兼容,但 Kotlin被设计成可以和Java代码相互运作,并可以重复使用现有Java类库。在 Google I/02017中, Google宣布在 Android上为Kotlin提供最佳支持。
+
+## 
