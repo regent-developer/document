@@ -78,4 +78,7 @@ Clojure由 Rich Hickey开发,并于2007年发布。它是套现代的Lsp语言�
 ## Kotlin
 Kotlin由 JetBrains于2011年7月推出,它是一种在Java虚拟机上运行的静态类型编程语言,也可以被编译成为 JavaScript源代码。虽然与Java语法并不兼容,但 Kotlin被设计成可以和Java代码相互运作,并可以重复使用现有Java类库。在 Google I/02017中, Google宣布在 Android上为Kotlin提供最佳支持。
 
+## Java
+James Gosling任职Sun公司期间发明了Java,于1995年5月发布。JaVa是使用程度最为广泛、也是目前使用人数最多的编程语言,广泛应用于企业级Web应用开发和移动应用开发,拥有跨平台、面向对象、泛型编程、函数式编程等特性。
+
 ## 
