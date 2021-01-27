@@ -213,4 +213,8 @@ James Gosling 任职 Sun 公司期间发明了 Java,于 1995 年 5 月发布。J
 
 1983 年，ACID 一词首次出现。基于格雷的工作，罗伊特和哈德尔第一次使用 ACID 来描 述事务的特性，其中 A 代表 Atomicity（原子性），C 代表 Consistency（一致性），I 代表 Isolation（隔离性），D 代表 Durability（持久性）。ACID 是可靠事务系统必须具备的四个特性。
 
+## Objective-C
+
+1984 年，Objective-C 首次出现。Objective-C 是面向对象的通用、高级编程语言。它扩展了标准的 ANSI C，将 Smalltalk 式消息传递机制加入 ANSI C。Objective-C 由布莱德·考克斯和汤姆·洛夫设计。1986 年 1 月，考克斯出版了一本书，完整描述了 Objective-C 的设计理念。
+
 ##
