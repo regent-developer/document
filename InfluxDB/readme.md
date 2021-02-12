@@ -54,8 +54,52 @@ InfluxDB 是一个由 InfluxData 开发的开源时序型数据。它由 Go 写�
 
 ## 基本操作
 
+- 客户端命令行方式
+
+| 操作                                     | 说明                 |
+| ---------------------------------------- | -------------------- |
+| show databases                           | 显示数据库           |
+| create database xxx                      | 新建数据库           |
+| drop database xxx                        | 删除数据库           |
+| use xxx                                  | 使用某个数据库       |
+| show measurements                        | 显示所有表           |
+| insert xxxTable,index=indexxxx value=xxx | 新建表               |
+| drop measurement xxxTable                | 删除表               |
+| insert xxxTable,index=indexxxx value=xxx | 增加数据             |
+| select \* from xxxTable                  | 查询数据             |
+| -                                        | 无修改和删除数据操作 |
+| show series from mem                     | series 操作          |
+
+- HTTP API 接口
+
+- 各语言 API 库
+
 ## 环境搭建
 
 ### windows
 
+- 下载链接(https://portal.influxdata.com/downloads)
+
+- 配置
+
+| 目录 | 配置项目（influxdb.conf） |
+| ---- | ------------------------- |
+| meta | [meta]/dir                |
+| data | [data]/dir                |
+| wal  | [data]/wal-dir            |
+
+- 启动 influxdb 服务器
+  双击 influxd.exe
+
+* 启动 influxdb 命令行客户端
+  双击 influx.exe
+
 ### linux
+
+## 性能测试
+
+- 测试环境
+- 测试频率
+- 测试时长
+
+* 测试结果
