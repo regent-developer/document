@@ -72,7 +72,41 @@ InfluxDB 是一个由 InfluxData 开发的开源时序型数据。它由 Go 写�
 
 - HTTP API 接口
 
+1. 建立数据库
+   curl -POST http://localhost:8086/query --data-urlencode "q=CREATE DATABASE xxx"
+
+2. 删除数据库
+   curl -POST http://localhost:8086/query --data-urlencode "q=DROP DATABASE xxx"
+3. 添加数据
+   curl -i -XPOST http://localhost:8086/write?db=xxx --data-binary "xxxTable,tag1=xxxtag,tag2=xxxtag value=0.64 1434055562000000000"
+4. 查询
+   curl -GET http://localhost:8086/query?pretty=true --data-urlencode "db=xxx"
+   --data-urlencode "q=SELECT value FROM xxxTable WHERE tag1='xxx'"
+
 - 各语言 API 库
+
+## 常用函数
+
+| 操作                    | 说明                                                              | 语法                                                                                                          |
+| ----------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| count                   | 返回一个（field）字段中的非空值的数量                             | SELECT COUNT(<field_key>) FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>]                          |
+| distinct                | 返回一个字段（field）的唯一值                                     | SELECT DISTINCT(<field_key>) FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>]                       |
+| mean                    | 返回一个字段（field）中的值的算术平均值（平均值）                 | SELECT MEAN(<field_key>) FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>]                           |
+| median                  | 从单个字段（field）中的排序值返回中间值（中位数）                 | SELECT MEAN(<field_key>) FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>]                           |
+| spread                  | 返回字段的最小值和最大值之间的差值                                | SELECT SPREAD(<field_key>) FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>]                         |
+| sum                     | 返回一个字段中的所有值的和                                        | SELECT SUM(<field_key>) FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>]                            |
+| top                     | 返回一个字段中最大的 N 个值                                       |                                                                                                               |
+| bottom                  | 返回一个字段中最小的 N 个值                                       |                                                                                                               |
+| first                   | 返回一个字段中最老的取值                                          | SELECT FIRST(<field_key>)[,<tag_key(s)>] FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>]           |
+| last                    | 返回一个字段中最新的取值                                          | SELECT LAST(<field_key>)[,<tag_key(s)>] FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>]            |
+| max                     | 返回一个字段中的最小值                                            | SELECT MIN(<field_key>)[,<tag_key(s)>] FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>]             |
+| percentile              | 返回排序值排位为 N 的百分值                                       | SELECT PERCENTILE(<field_key>, <N>)[,<tag_key(s)>] FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>] |
+| derivative              | 返回一个字段在一个 series 中的变化率                              | SELECT DERIVATIVE(<field_key>, [<unit>]) FROM <measurement_name> [WHERE <stuff>]                              |
+| difference              | 返回一个字段中连续的时间值之间的差异                              | SELECT DIFFERENCE(<field_key>) FROM <measurement_name> [WHERE <stuff>]                                        |
+| elapsed                 | 返回一个字段在连续的时间间隔间的差异，间隔单位可选，默认为 1 纳秒 | SELECT ELAPSED(<field_key>, <unit>) FROM <measurement_name> [WHERE <stuff>]                                   |
+| moving_average          | 返回一个连续字段值的移动平均值                                    | SELECT MOVING_AVERAGE(<field_key>,<window>) FROM <measurement_name> [WHERE <stuff>]                           |
+| non_negative_derivative | 返回在一个 series 中的一个字段中值的变化的非负速率                | SELECT NON_NEGATIVE_DERIVATIVE(<field_key>, [<unit>]) FROM <measurement_name> [WHERE <stuff>]                 |
+| stddev                  | 返回一个字段中的值的标准偏差                                      | SELECT STDDEV(<field_key>) FROM <measurement_name> [WHERE <stuff>] [GROUP BY <stuff>]                         |
 
 ## 环境搭建
 
