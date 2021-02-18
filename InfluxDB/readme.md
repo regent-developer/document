@@ -133,7 +133,11 @@ InfluxDB 是一个由 InfluxData 开发的开源时序型数据。它由 Go 写�
 ## 性能测试
 
 - 测试环境
-- 测试频率
-- 测试时长
+  i3 4G Win10 64 位
+
+- 测试数据
+  1000W 条数据，每条数据 280 个字段
 
 * 测试结果
+  select count(value1) from tabl
+  用时：4 秒左右（目测）
