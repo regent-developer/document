@@ -308,3 +308,7 @@ Plan 9 是 Plan 9 from Bell Labs 的简称，即贝尔实验室 9 号项目。�
 ## Apache HTTP Server
 
 1995 年 2 月，Apache HTTP Server 发布。Apache HTTP Server 是最流行的 Web 服务器软件之一，是 Apache 软件基金会发布的一款开源网页服务器，最初由 NCSA HTTPd 1.3 服务器发展而来，因跨平台、安全性和稳定性获得了广泛应用。
+
+## Camelot
+
+1991 年春天，Camelot 的基本功能敲定。Camelot 是无处不在的电子文档格式 PDF 的前身，其设计者是 Adobe 联合创始人约翰·沃诺克。如今的 PDF 文件除了包括文本、字形、图形等基本文档信息，还包括注释、表单、图层、富媒体之类的交互元素，还能进行加密、数字签名等操作。
