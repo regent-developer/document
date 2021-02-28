@@ -43,9 +43,13 @@ docker-compose build
 
 
 
+## kafka配置
+
+
+
+
+
 ## 启动服务
-
-
 
 ```bash
 docker-compose up -d
@@ -54,8 +58,6 @@ docker-compose up -d
 
 
 ## 启动测试
-
-
 
 ### 进入kafka容器
 
