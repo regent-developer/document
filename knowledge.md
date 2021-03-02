@@ -340,3 +340,7 @@ Plan 9 是 Plan 9 from Bell Labs 的简称，即贝尔实验室 9 号项目。�
 ## Xerox Alto
 
 1973 年 3 月 1 日，Xerox Alto 诞生。Xerox Alto（施乐奥多）由施乐 PARC 研发，查尔斯·萨克尔担任项目负责人。Alto 是现代个人计算机的鼻祖，首次使用桌面比拟和鼠标驱动，是最早使用图形用户界面的个人计算机。SUN 工作站和 Macintosh 等均参考了 Alto 的设计。
+
+## Emacs
+
+1976 年，Emacs 诞生。Emacs 是一个文本编辑器家族，具有强大的可扩展性，初始版本由戴维·穆恩和盖伊·史提尔开发。Emacs 演化出了众多分支，其中使用最广泛的是 GNU Emacs 和 XEmacs。在 Unix 文化中，黑客主要使用 Emacs 和 vi/Vim 两种编辑器。
