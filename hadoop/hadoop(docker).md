@@ -35,8 +35,14 @@ yum install openssh-server
 yum install openssh-clients
 ```
 
-### 安装 hadoop2.6
+### 下载 hadoop2.6
 
 ```shell
 curl -o hadoop-2.6.tar.gz  http://archive.apache.org/dist/hadoop/common/hadoop-2.6.0/hadoop-2.6.0.tar.gz
+```
+
+### 解压 hadoop
+
+```shell
+tar -zxvf hadoop-2.6.tar.gz
 ```
