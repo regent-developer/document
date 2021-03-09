@@ -35,6 +35,25 @@ yum install openssh-server
 yum install openssh-clients
 ```
 
+### 安装 java1.8
+
+```shell
+yum -y list java*
+yum install -y java-1.8.0-openjdk.x86_64
+```
+
+java 安装路径
+/usr/lib/jvm/jre-1.8.0-openjdk
+
+### 安装 ssh
+
+```shell
+rpm -qa | grep ssh
+yum -y install openssh
+yum -y install openssh-clients
+yum -y install openssh-server
+```
+
 ### 下载 hadoop3.2.2
 
 ```shell
@@ -96,6 +115,29 @@ export PATH=${JAVA_HOME}/bin:${HADOOP_HOME}/bin:$PATH
                 <value>file:/home/hadoop/dfs/data</value>
         </property>
 </configuration>
+```
+
+### 修改/etc/hadoop/hadoop-env.sh 中设 JAVA_HOME
+
+```shell
+export JAVA_HOME=/usr/lib/jvm/jre-1.8.0-openjdk
+```
+
+### 修改配置文件
+
+```shell
+$ vim sbin/start-dfs.sh
+$ vim sbin/stop-dfs.sh
+HDFS_DATANODE_USER=root
+HDFS_DATANODE_SECURE_USER=hdfs
+HDFS_NAMENODE_USER=root
+HDFS_SECONDARYNAMENODE_USER=root
+
+$ vim sbin/start-yarn.sh
+$ vim sbin/stop-yarn.sh
+YARN_RESOURCEMANAGER_USER=root
+HADOOP_SECURE_DN_USER=yarn
+YARN_NODEMANAGER_USER=root
 ```
 
 ### 格式化 namenode
