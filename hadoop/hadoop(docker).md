@@ -5,10 +5,10 @@
 ### 下载 centos 镜像
 
 ```shell
-docker pull java
+docker pull centos:7
 ```
 
-### 镜像重命名
+### 镜像重命名（todo）
 
 ```shell
 docker tag [image_id] hadoop:latest
@@ -18,10 +18,10 @@ docker rmi java
 ### 建立容器
 
 ```shell
-docker run -it hadoop /bin/bash
+docker run -it -d centos:7 bash
 ```
 
-### 安装 yum
+### 安装 yum(delete)
 
 ```shell
 apt-get update
