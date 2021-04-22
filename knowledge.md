@@ -524,3 +524,4 @@ AlphaGo 的进化速度非常之快，AlphaGo Lee（即跟李世乭对战的版�
 ## FFT 算法开始普及
 
 1965 年 4 月，FFT 算法开始普及。詹姆斯·库利和约翰·图基发表“An Algorithm for the Machine Calculation of Complex Fourier Series”论文，其中的算法被称为库利-图基算法——一种最常见的 FFT 算法。自此，FFT 算法迅速普及。
+FFT：快速傅里叶变换（Fast Fourier Transformation），用来加速多项式乘法
