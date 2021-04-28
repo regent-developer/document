@@ -545,3 +545,7 @@ FFT：快速傅里叶变换（Fast Fourier Transformation），用来加速多�
 ## 摩尔斯电码（Morse code）
 
 "1837 年，摩尔斯发明现代国际摩尔斯电码的前身。摩尔斯电码（Morse code）是一种早期的数字化通信代码，通过使用不同的代码（比如点和划）表达不同的英文字母、数字和标点符号，这就实现了将信息或者文字编码为电信号。"
+
+## iTunes Music Store 开放
+
+2003 年 4 月 28 日，iTunes Music Store 开放。iTunes Music Store 开放首周卖出 100 万首歌曲，5 年后成为美国最受欢迎的音乐销售商，又过了不到 2 年就成为全世界最受欢迎的音乐商店。iTunes Music Store 后更名为 iTunes Store，是一个综合性数字媒体网络商店。
