@@ -561,3 +561,7 @@ FFT：快速傅里叶变换（Fast Fourier Transformation），用来加速多�
 ## 第一个 BASIC 程序跑通
 
 1964 年 5 月 1 日，第一个 BASIC 程序跑通。BASIC 是 Beginner’s All-purpose Symbolic Instruction Code 的简称，即初学者通用符号指令代码，由托马斯·卡茨与约翰·凯梅尼在达特茅斯学院为学生开发。BASIC 从设计上强调易用性，从命名就可以看出。
+
+## vi 发布
+
+1979 年 5 月，vi 发布。vi 是一种文本编辑器，在 Unix 系统中广受欢迎。vi 是 visual 的缩写，源于 ex 的命令 visual，由比尔·乔伊开发。1991 年 11 月 2 日，Vim 初始版本发布。Vim 是从 vi 发展出来的一个文本编辑器，作者为布莱姆·米勒。
