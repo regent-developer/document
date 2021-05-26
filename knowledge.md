@@ -637,3 +637,7 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 ## “千禧年七大难题”公布
 
 2000 年 5 月 24 日，“千禧年七大难题”公布。“千禧年七大难题”集结了七道重要而多年悬而未决的难题，由克雷数学研究所公布并悬赏。解答其中任何一道题的第一个人将获得 100 万美元奖金，条件是题解必须发表在国际知名出版物上，并通过两年验证期和专家小组审核。
+
+## GM 密码系统诞生
+
+1982 年 5 月，GM 密码系统诞生。戈德瓦塞尔和米卡利发表经典论文“Probabilistic Encryption & How To Play Mental Poker Keeping Secret All Partial Information”，提出 GM 密码系统（Goldwasser-Micali）。
