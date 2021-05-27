@@ -641,3 +641,7 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 ## GM 密码系统诞生
 
 1982 年 5 月，GM 密码系统诞生。戈德瓦塞尔和米卡利发表经典论文“Probabilistic Encryption & How To Play Mental Poker Keeping Secret All Partial Information”，提出 GM 密码系统（Goldwasser-Micali）。
+
+## Node 发布
+
+2009 年 5 月 27 日，Node 发布。Node 由瑞安·达尔开发，是一个开源、跨平台 JavaScript 运行时环境，可以在 Web 浏览器之外执行 JavaScript 代码，推动了服务器端 JavaScript 领域的快速发展。Node 是首个使用非阻塞编程模型的主流框架。
