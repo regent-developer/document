@@ -666,3 +666,6 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 
 ## 新的编程语言 Swift
 2014 年 6 月 2 日，苹果在 WWDC 上发布了新的编程语言 Swift。Swift 由克里斯·拉特纳在苹果内部主持开发，历时 4 年。它是一种支持多编程范式的可编译语言，其设计简单、高效、安全，用来开发 macOS/OS X、iOS、watchOS 和 tvOS。
+
+## 关系模型
+"1970 年 6 月，埃德加·科德首次提出关系模型。IBM 公司研究员埃德加·科德在《ACM 通讯》上发表知名论文“A Relational Model of Data for Large Shared Data Banks”，提出了关系模型这一软件领域的里程碑式概念。"
