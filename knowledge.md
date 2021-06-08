@@ -678,3 +678,6 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 
 ## Kubernetes 开源版本发布
 2014 年 6 月 7 日，Kubernetes 开源版本发布。Kubernetes（简称为 K8s）是用于自动部署、扩展和管理“容器化应用程序”的开源系统，由谷歌设计并捐赠给 CNCF。K8s 已经成为容器管理领域的事实标准，极大地推动了云原生领域的发展。
+
+## 拉斯姆斯·勒多夫公开发布 PHP
+1995 年 6 月 8 日，拉斯姆斯·勒多夫公开发布 PHP。据说 P H P 是勒多夫在家门口餐馆用餐后设计出来的，初 始是 Personal Home Page 的缩写，后变为 PHP: Hypertext Preprocessor 的缩写。PHP 吸收了 C、Java、Perl 等语言的特点，允许开发人员快速编写动态页面。
