@@ -690,3 +690,6 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 
 ## HTTP 1.1 发布
 1999 年 6 月，HTTP 1.1 发布。HTTP（HyperText Transfer Protocol，超文本传输协议）是一种应用层协议，是万维网之间数据通信的基础。设计 HTTP 的初衷是提供一种发布和接收 HTML 页面的方法，通过 HTTP 协议请求的资源由统一资源标识符来标识。
+
+## 伊恩·古德费洛等提出 GAN
+2014 年 6 月，伊恩·古德费洛等提出 GAN。GAN（Generative Adversarial Network，生成对抗网络）是一种使用无监督机器学习算法生成数据的深度神经网络架构。古德费洛等在提交的论文“Generative Adversarial Nets”中首次提出了 GAN。
