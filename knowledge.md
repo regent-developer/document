@@ -725,3 +725,6 @@ Alan Turing（1912-06-23—1954-06-07）1912 年 6 月 23 日，阿兰·图灵�
 
 ## 微软发布ASP.NET Core 1.0
 2016 年 6 月 27 日，微软发布 ASP.NET Core 1.0。.NET Core 是微软开发的第一个完全开源的跨平台应用开发开发框架，可运行在 Windows、Linux 和 macOS 等多个平台。一开始，.NET Core 的部分功能不如.NET 丰富，但是其开源和跨平台特性为其赢得了大量用户。
+
+## Google 地球上线
+2005 年 6 月 28 日，Google 地球上线。Google 地球是谷歌开发的虚拟地球仪软件，技术原型是约翰·汉克供职的 Intrinsic Graphics 开发的三维地球模型。后来汉克出来成立 Keyhole，开发了 Keyhole EarthViewer 软件，可以将卫星图和航拍图叠加到地球模型上。
