@@ -7,4 +7,28 @@ Cordova是PhoneGap贡献给Apache后的开源项目，是从PhoneGap中抽出的
 
 http://cordova.apache.org/
 
-## 
+## 安装
+```shell
+npm install -g cordova
+```
+
+## 创建新cordova工程
+
+```shell
+cordova create MyApp
+```
+
+## 添加平台
+```shell
+cordova platform add android
+```
+
+## 查看支持的平台
+```shell
+cordova platform
+```
+
+## 运行
+```shell
+cordova run android
+```
