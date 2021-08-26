@@ -8,7 +8,7 @@ go Modules—Modules是Go 1.11中新增的实验性功能，是一种新型的�
 //Linux的设置
 export GO111MODULE=on //此时go会使用modules，而不会去GOPATH目录下查找。
 
-//Windlows设置
+//Windows设置
 $env:GO111MODULE="on"
 
 //Go version >= 1.13 
