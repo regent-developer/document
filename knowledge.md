@@ -911,3 +911,6 @@ John Resig 是一位美国工程师，他是 jQuery 的创始人和技术领袖�
 
 ## 达特茅斯会议启动
 1956 年 8 月 31 日，达特茅斯会议启动。这次会议被看作人工智能的起源，会议正式名称为 Summer Research Project on Artificial Intelligence（人工智能夏季研讨会），这是约翰·麦卡锡拟定的，他和马文·明斯基是会议的主要发起者。
+
+## Pascal
+"1968 年 9 月，维尔特开始设计 Pascal。Pascal 于 1970 年 1 月首次发布，基于 ALGOL 开发，是面向对象和面向过程的编程语言。设计初衷是充分利用结构化编程和数据结构，从而提升编程效率。Pascal 的命名是为了纪念法国数学家 Blaise Pascal。"
