@@ -953,3 +953,6 @@ John Resig 是一位美国工程师，他是 jQuery 的创始人和技术领袖�
 
 ## StackOverflow
 "2008 年 9 月 15 日，Stack Overflow 开始公开测试。Stack Overflow 是全世界最受欢迎的程序员问答网站，由杰夫·阿特伍德及周思博创建。2019 年 Stack Overflow 新增注册用户超过 170 万，问题总数超过了 1800 万个。"
+
+## 易语言发布
+"2000 年 9 月 16 日，易语言发布。易语言（Easy Programming Language，EPL）是一门计算机程序设计语言，最大的特点是使用汉字作为程序代码进行编 程。易语言是面向对象和结构化的，语法风格跟 Visual Basic类似，版本有易语言、易语言.飞扬和易乐谷三种。"
