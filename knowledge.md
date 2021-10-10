@@ -1016,3 +1016,6 @@ John Resig 是一位美国工程师，他是 jQuery 的创始人和技术领袖�
 
 ## TypeScript
 2012 年 10 月，微软首次发布公开版 TypeScript 0.8。TypeScript 是由微软主导开发的开源编程语言，为开发大型应用而设计。它是JavaScript ES6 的一个严格超集，以可选的方式提供了静态类型支持和基于类的面向对象编程特性。
+
+## BERT 模型
+2018 年 10 月 11 日，谷歌 AI 团队发布开源 BERT 模型。BERT 的全称是 Bidirectional Encoder Representation fromTransformers（基于 Transformer 的双向编码器表征），被认为是当前最强的 NLP 预训练模型。BERT 在机器阅读理解顶级测试 SQuAD1.1 中表现惊人。
