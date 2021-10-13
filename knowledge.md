@@ -1019,3 +1019,6 @@ John Resig 是一位美国工程师，他是 jQuery 的创始人和技术领袖�
 
 ## BERT 模型
 2018 年 10 月 11 日，谷歌 AI 团队发布开源 BERT 模型。BERT 的全称是 Bidirectional Encoder Representation fromTransformers（基于 Transformer 的双向编码器表征），被认为是当前最强的 NLP 预训练模型。BERT 在机器阅读理解顶级测试 SQuAD1.1 中表现惊人。
+
+## C++编译器 CFront
+1985 年 10 月 14 日，第一个 C++编译器 CFront 发布。C++是比雅尼·斯特劳斯特鲁普在贝尔实验室工作期间设计并实现的。C++基于C语言开发，增加了很多现代编程语言特性。它是一种通用的静态类型编译式编程语言，支持过程化编程、面向对象编程和泛型编程。
