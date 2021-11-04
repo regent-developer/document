@@ -1056,3 +1056,6 @@ John Resig 是一位美国工程师，他是 jQuery 的创始人和技术领袖�
 
 ## Multics 项目启动
 1964 年 11 月，Multics项目启动。MIT、贝尔实验室及通用电气开始共同研发Multics（Multiplexed Information and Computing System，多任务信息与计算系统）。Multics 基于兼容分时系统设计，首次进行了多用户、多任务操作系统方向的尝试，是现代主流操作系统的鼻祖。
+
+## Long Short-Term Memory
+1997 年 11 月，长短时记忆网络 LSTM 诞生。霍赫赖特和施密德胡伯在《计算神经科学》发表经典论文“Long Short-Term Memory”，详细解释了 LSTM（长短时记忆网络）——机器学习领域一个里程碑式发现。LSTM 解决了循环神经网络存在的梯度消失问题。
