@@ -7,8 +7,8 @@
 |Amazon CloudWatch|mazon CloudWatch 是一种面向开发运营工程师、开发人员、站点可靠性工程师 (SRE) 和 IT 经理的监控和可观测性服务。CloudWatch 为您提供相关数据和切实见解，以监控应用程序、响应系统范围的性能变化、优化资源利用率，并在统一视图中查看运营状况。CloudWatch 以日志、指标和事件的形式收集监控和运营数据，让您能够在统一查看在 AWS 和本地服务器上运行的资源、应用程序和服务。您可以使用 CloudWatch 检测环境中的异常行为、设置警报、并排显示日志和指标、执行自动化操作、排查问题，以及发现可确保应用程序正常运行的见解。|
 |Amazon Glacier|mazon Glacier 是成本极低的存储服务，为数据存档和备份提供安全而持久的存储。为了降低成本，Amazon Glacier 专门针对不经常访问的数据以及可以接受数小时检索时间的数据进行了优化。利用 Amazon Glacier，客户可以可靠地存储大量或少量数据。|
 |Amazon Elastic Block Store (EBS)|易于使用、适用于任何规模的高性能数据块存储|
-|||
-|||
+|Amazon Elastic File System|Amazon Elastic File System (Amazon EFS) 是一种简单的、无服务器的、可设置且可忽略的弹性文件系统。没有最低消费和设置费用。您只需为实际使用的存储、对不频繁访问存储类中存储的数据的读写访问以及任何已预置的吞吐量付费。|
+|AWS Direct Connect|AWS Direct Connect 是一种云服务，可将您的网络直接链接到 AWS，绕过互联网，以获得更一致、更低延迟的性能。|
 |||
 |||
 |||
