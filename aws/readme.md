@@ -11,7 +11,7 @@
 |AWS Direct Connect|AWS Direct Connect 是一种云服务，可将您的网络直接链接到 AWS，绕过互联网，以获得更一致、更低延迟的性能。|
 |Amazon Kinesis Data Firehose|Amazon Kinesis Data Firehose 是将流数据可靠地加载到数据湖、数据存储和分析服务中的最简单方式。无最低消费和设置费用|
 |Amazon CloudFront|Amazon CloudFront 是一项内容分发网络 (CDN) 服务，可以在开发人员友好的环境中安全地以低延迟和高传输速度向全球客户分发数据、视频、应用程序和 API。当用户请求您通过 CloudFront 提供的内容时，请求会路由到提供最低延迟（时间延迟）的边缘站点，从而以尽可能最佳的性能传送内容。|
-|||
+|Amazon CodeDeploy|Amazon CodeDeploy 是一项可以将代码自动部署到任意实例中的服务，这些实例包括 Amazon EC2 实例和在本地运行的实例。|
 |||
 |||
 |||
