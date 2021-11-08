@@ -9,7 +9,7 @@
 |Amazon Elastic Block Store (EBS)|易于使用、适用于任何规模的高性能数据块存储|
 |Amazon Elastic File System|Amazon Elastic File System (Amazon EFS) 是一种简单的、无服务器的、可设置且可忽略的弹性文件系统。没有最低消费和设置费用。您只需为实际使用的存储、对不频繁访问存储类中存储的数据的读写访问以及任何已预置的吞吐量付费。|
 |AWS Direct Connect|AWS Direct Connect 是一种云服务，可将您的网络直接链接到 AWS，绕过互联网，以获得更一致、更低延迟的性能。|
-|||
+|Amazon Kinesis Data Firehose|Amazon Kinesis Data Firehose 是将流数据可靠地加载到数据湖、数据存储和分析服务中的最简单方式。无最低消费和设置费用|
 |||
 |||
 |||
