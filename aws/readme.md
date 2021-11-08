@@ -16,7 +16,7 @@
 |AWS Trusted Advisor|AWS Trusted Advisors 提供了可帮助您遵从 AWS 最佳实践的建议。Trusted Advisor 通过检查评估您的账户。这些检查确定了优化 AWS 基础设施、提高安全性和性能、降低成本和监控服务配额的方法。然后，您可以按照检查建议来优化服务和资源。|
 |Amazon CloudFormation|Amazon CloudFormation 让您能够以可预测、可重复的方式创建和预置 Amazon Web Services（中国） 基础设施部署。|
 |Amazon Rekognition|使用机器学习自动执行图像和视频分析|
-|||
+|Amazon Redshift|Amazon Redshift 是一项完全托管的企业 PB 级数据仓库服务。|
 |||
 |||
 |||
