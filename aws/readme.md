@@ -12,6 +12,21 @@
 |Amazon Kinesis Data Firehose|Amazon Kinesis Data Firehose 是将流数据可靠地加载到数据湖、数据存储和分析服务中的最简单方式。无最低消费和设置费用|
 |Amazon CloudFront|Amazon CloudFront 是一项内容分发网络 (CDN) 服务，可以在开发人员友好的环境中安全地以低延迟和高传输速度向全球客户分发数据、视频、应用程序和 API。当用户请求您通过 CloudFront 提供的内容时，请求会路由到提供最低延迟（时间延迟）的边缘站点，从而以尽可能最佳的性能传送内容。|
 |Amazon CodeDeploy|Amazon CodeDeploy 是一项可以将代码自动部署到任意实例中的服务，这些实例包括 Amazon EC2 实例和在本地运行的实例。|
+|Amazon Serverless Application Model(Amazon SAM）|一个开源框架，可用于构建无服务器应用程序上的Amazon|
+|AWS Trusted Advisor|AWS Trusted Advisors 提供了可帮助您遵从 AWS 最佳实践的建议。Trusted Advisor 通过检查评估您的账户。这些检查确定了优化 AWS 基础设施、提高安全性和性能、降低成本和监控服务配额的方法。然后，您可以按照检查建议来优化服务和资源。|
+|Amazon CloudFormation|Amazon CloudFormation 让您能够以可预测、可重复的方式创建和预置 Amazon Web Services（中国） 基础设施部署。|
+|Amazon Rekognition|使用机器学习自动执行图像和视频分析|
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
 |||
 |||
 |||
