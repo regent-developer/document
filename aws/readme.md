@@ -17,7 +17,7 @@
 |Amazon CloudFormation|Amazon CloudFormation 让您能够以可预测、可重复的方式创建和预置 Amazon Web Services（中国） 基础设施部署。|
 |Amazon Rekognition|使用机器学习自动执行图像和视频分析|
 |Amazon Redshift|Amazon Redshift 是一项完全托管的企业 PB 级数据仓库服务。|
-|||
+|AWS Elastic Beanstalk|AWS Elastic Beanstalk 是一项易于使用的服务，用于在熟悉的服务器（例如 Apache 、Nginx、Passenger 和 IIS ）上部署和扩展使用 Java、.NET、PHP、Node.js、Python、Ruby、GO 和 Docker 开发的 Web 应用程序和服务。只需上传代码，Elastic Beanstalk 即可自动处理包括容量预配置、负载均衡、自动扩展和应用程序运行状况监控在内的部署工作。同时，您能够完全控制为应用程序提供支持的 AWS 资源，并可以随时访问底层资源。|
 |||
 |||
 |||
