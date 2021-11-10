@@ -20,8 +20,8 @@
 |AWS Elastic Beanstalk|AWS Elastic Beanstalk 是一项易于使用的服务，用于在熟悉的服务器（例如 Apache 、Nginx、Passenger 和 IIS ）上部署和扩展使用 Java、.NET、PHP、Node.js、Python、Ruby、GO 和 Docker 开发的 Web 应用程序和服务。只需上传代码，Elastic Beanstalk 即可自动处理包括容量预配置、负载均衡、自动扩展和应用程序运行状况监控在内的部署工作。同时，您能够完全控制为应用程序提供支持的 AWS 资源，并可以随时访问底层资源。|
 |Amazon Simple Workflow Service (SWF)|Amazon SWF 帮助开发人员构建、运行和扩展平行或有序运行的后台作业。|
 |Amazon Mechanical Turk|MTurk的全称是Amazon Mechanical Turk，是亚马逊开发的一个众包（crowdsourcing）平台。发布者（称为Requester）把需要做的任务（Human Intelligence Task, HIT）发在网上，想要做这项任务的人（称为Worker）可以接受任务并且获得报酬|
-|||
-|||
+|AWS Key Management Service (KMS)|AWS Key Management Service (KMS) 可让您轻松创建和管理加密密钥，并控制其在各种 AWS 服务和应用程序中的使用。AWS KMS 是一种安全且有弹性的服务，它使用已经过 FIPS 140-2 验证或正在验证的硬件安全模块来保护您的密钥。AWS KMS 还能与 AWS CloudTrail 集成，从而为您提供所有密钥的使用记录，帮助您满足监管和合规性要求。|
+|AWS CloudHSM|AWS CloudHSM 是基于云的硬件安全模块 (HSM)，让您能够在 AWS 云上轻松生成和使用自己的加密密钥。|
 |||
 |||
 |||
