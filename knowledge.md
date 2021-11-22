@@ -1098,3 +1098,6 @@ Windows CE 1.0 最早于 1996 年 11 月 16 日推出，是单色的 Windows 95 
 
 ## 微软发布 Windows 1.0
 1985 年 11 月 20 日，微软发布 Windows 1.0。Microsoft Windows 是微软推出的系列商业软件操作系统。1.0 版是其第一款基于图形用户界面的操作系统，运行于 MS-DOS 之下的桌面环境。
+
+## RISC 是 CPU 的一种设计模式
+1980 年，大卫·帕特森创造 RISC 一词。RISC 是 CPU 的一种设计模式，名称最早来自帕特森在加州大学伯克利分校主持的 Berkeley RISC 计划。帕特森和 Séquin在 1981 年发表的论文“RISC I: A Reduced Instruction Set VLSI Computer”介绍了 RISC。
