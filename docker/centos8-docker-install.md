@@ -21,7 +21,15 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 sudo yum install docker-ce docker-ce-cli containerd.io
 ```
 
-如果报错：Problem: package docker-ce-3:19.03.4-3.el7.x86_64 requires containerd.io >= 1.2.2-3 那就先装新版的 containerd.io，执行下面命令。
+
+* 如果提示：Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+原因可能是上一次没有正常退出docker，所以docker没有正常启动，在相应的/var/run/路径下找不到docker进程，执行下面命令。
+
+```bash
+sudo service docker restart
+```
+
+* 如果报错：Problem: package docker-ce-3:19.03.4-3.el7.x86_64 requires containerd.io >= 1.2.2-3 那就先装新版的 containerd.io，执行下面命令。
 ```bash
 dnf install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm
 ```
@@ -36,7 +44,7 @@ docker --version
 ```
 
 
-如果国外的Docker镜像很慢的话，则可以基于阿里云镜像来安装Docker。  
+* 如果国外的Docker镜像很慢的话，则可以基于阿里云镜像来安装Docker。  
 ```bash
 yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 dnf install https://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.13-3.1.el7.x86_64.rpm
