@@ -1208,3 +1208,6 @@ Bigtable 是谷歌提出的一种专有分布式存储系统，用于存储大�
 
 ## 深蓝”（Deep Blue）
 “深蓝”是由 IBM 开发的专门分析国际象棋的超级计算机，设计者为许峰雄。Deep Blue 的名字取自 Deep Thought（“深思”）与 IBM 的昵称 Big Blue（蓝色巨人），而 Deep Thought 是许峰雄攻读博士学位期间设计的象棋计算机，名字直接源自《银河系漫游指南》中的超级计算机。
+
+## Python
+"print ""Happy Birthday to Python!"" 1991 年 2 月 20 日，Python 正式发布。30 年前的今天，吉多·范罗苏姆正式对外公布 Python 代码，版本为 0.9.0。巧的是，Python 3.2.0 恰好是 20 年之后发布的。当前，Python 稳定版为 3.9.1。"
