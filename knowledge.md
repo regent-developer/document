@@ -1211,3 +1211,6 @@ Bigtable 是谷歌提出的一种专有分布式存储系统，用于存储大�
 
 ## Python
 "print ""Happy Birthday to Python!"" 1991 年 2 月 20 日，Python 正式发布。30 年前的今天，吉多·范罗苏姆正式对外公布 Python 代码，版本为 0.9.0。巧的是，Python 3.2.0 恰好是 20 年之后发布的。当前，Python 稳定版为 3.9.1。"
+
+## Apache HTTP Server
+1995 年 2 月，Apache HTTP Server 发布。Apache HTTP Server 是最流行的 Web 服务器软件之一，是 Apache 软件基金会发布的一款开源网页服务器，最初由 NCSA HTTPd 1.3 服务器发展而来，因跨平台、安全性和稳定性获得了广泛应用。
