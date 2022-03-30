@@ -1287,3 +1287,6 @@ AlphaGo 的进化速度非常之快，AlphaGo Lee（即跟李世乭对战的版�
 
 ## BackRub
 1996 年，Google 搜索引擎前身 BackRub 创建。BackRub 是佩奇在斯坦福大学创建的搜索引擎项目，用以分析网站链接的质量并进行排名。一年后，布林加入。随着项目变得复杂且没人愿意接手，两人索性破釜沉舟，于 1997 年 9 月注册了谷歌的域名，BackRub 演变为 Google。
+
+## UNIVAC
+1951 年 3 月 30 日，UNIVAC 通过验收测试。UNIVAC（UNIVersal Automatic Computer，通用自动计算机）是由 Eckert–Mauchly 计算机公司制造的，是史上第一台商业化量产的电子计算机。UNIVAC 一开始是为美国人口普查局设计的，后又收到了其他订单，最终卖出了 46 台。
