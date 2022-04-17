@@ -1311,3 +1311,6 @@ AlphaGo 的进化速度非常之快，AlphaGo Lee（即跟李世乭对战的版�
 
 ## 早期自然语言处理经典论文发表
 1976 年 4 月，早期自然语言处理经典论文发表。“Speech Recognition by Machine: A  Review”是一篇综述性论文，由拉吉·瑞迪发表。他在语音识别与控制、智能感知与运动方向做出了开创性贡献。瑞迪领导了早期语音识别系统Hearsay I 的开发。
+
+## Turbo Pascal 2.0
+"1984 年 4 月 17 日，Borland 发布 Turbo Pascal 2.0。1.0 版本发布于 1983 年 11 月 20 日。Turbo Pascal 是 Borland公司的代表性软件产品，由海尔斯伯格主导开发。在功能上，扩展了 Pascal 的特性；在语法上，吸取了 C 语言等的特性。"
