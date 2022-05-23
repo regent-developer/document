@@ -1,16 +1,23 @@
 # centos8中安装redis
 
 ## yum安装redis
+```shell
  yum install redis
-
+```
 ## 启动redis服务
+```shell
 service redis start
+```
 
 ## 查看redis服务
+```shell
 service redis status
+```
 
 ## 设置开机启动
+```shell
 systemctl enable redis
+```
 
 ## 配置环境变量
 修改 /etc/redis.conf 文件
