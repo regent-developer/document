@@ -1,4 +1,4 @@
-# 再centos8中安装mysql
+# centos8中安装mysql
 
 ## 卸载之前安装的mysql
 yum remove -y mysql
