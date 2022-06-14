@@ -1349,4 +1349,7 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 1995 年 6 月 8 日，拉斯姆斯·勒多夫公开发布 PHP。据说 P H P 是勒多夫在家门口餐馆用餐后设计出来的，初 始是 Personal Home Page 的缩写，后变为 PHP: Hypertext Preprocessor 的缩写。PHP 吸收了 C、Java、Perl 等语言的特点，允许开发人员快速编写动态页面。
 
 ## Apple II 发售
-1977 年 6 月 10 日，Apple II 发售。Apple II 由 Apple I 改进而来，核心功能包括配备彩色显示器，加了包装外壳，内置了音效功能和基于 BASIC 的编程语言。Apple II 是苹果生产的第一款普及的个人计算机，开启了全世界个人计算机的革命。
+1977 年 6 月 10 日，Apple II 发售。Apple II 由 Apple I 改进而来，核心功能包括配备彩色显示器，加了包装外壳，内置了音效功能和基于 BASIC 的编程语言。Apple II 是苹果生产的第一款普及的个人计算机，开启了全世界个人计算机的革命。#
+
+## 伊恩·古德费洛等提出 GAN
+2014 年 6 月，伊恩·古德费洛等提出 GAN。GAN（Generative Adversarial Network，生成对抗网络）是一种使用无监督机器学习算法生成数据的深度神经网络架构。古德费洛等在提交的论文“Generative Adversarial Nets”中首次提出了 GAN。
