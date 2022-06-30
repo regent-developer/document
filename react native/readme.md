@@ -39,8 +39,9 @@ https://developer.android.google.cn/studio/
 ## 创建新工程
 
 ```shell
-npx react-native init AwesomeProject --version X.XX.X
+npx react-native init AwesomeProject
 ```
+ --version X.XX.X:指定版本
 
 ```shell
 npx react-native init AwesomeTSProject --template react-native-template-typescript
