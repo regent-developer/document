@@ -6,7 +6,7 @@ Gitee: https://gitee.com/roseboy/classfinal
 
 ## 下载地址
 
-https://gitee.com/roseboy/classfinal/blob/master/README.md#%E4%B8%8B%E8%BD%BD
+https://repo1.maven.org/maven2/net/roseboy/classfinal-fatjar/1.2.1/classfinal-fatjar-1.2.1.jar
 
 ## 混淆使用方法 
 
