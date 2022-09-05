@@ -24,6 +24,32 @@
 - API 网关服务：Spring Cloud Zuul
 - 分布式配置中心： Spring Cloud Config
 
+#### 服务治理： Spring Cloud Eureka
+
+核心和基础模块，实现各个微服务实例的自动化注册与发现
+* @EnableEurekaServer：启动一个服务注册中心提供给其他应用进行对话。
+* 禁用客户端注册行为：application.properties中追加相应配置项目  
+eureka.client.register-with-eureka:  
+eureka.client.fetch-registry:  
+
+
+#### 客户端负载均衡： Spring Cloud Ribbon
+
+
+
+#### 服务容错保护： Spring Cloud Hystrix
+
+
+
+#### 声明式服务调用： Spring Cloud Feign
+
+
+#### API 网关服务：Spring Cloud Zuul
+
+
+
+#### 分布式配置中心： Spring Cloud Config
+
 ### SpringCloud 的高级功能
 
 - 消息总线： Spring Cloud Bus
