@@ -11,3 +11,9 @@ Django 的 MTV 模式本质上和 MVC 是一样的，也是为了各组件间保
 * V 表示视图（View）：负责业务逻辑，并在适当时候调用 Model和 Template。
 
 URL 分发器，它的作用是将一个个 URL 的页面请求分发给不同的 View 处理，View 再调用相应的 Model 和 Template。  
+
+
+## 安装
+```shell
+pip install Django
+```
