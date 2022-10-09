@@ -14,6 +14,37 @@ URL 分发器，它的作用是将一个个 URL 的页面请求分发给不同�
 
 
 ## 安装
+* 安装最新版本django
 ```shell
-pip install Django
+pip install django
+```
+
+* 安装指定版本django
+```shell
+pip install django==3.0.6
+```
+
+## 验证安装
+```python
+>>> import django
+>>> django.get_version()
+```
+
+## 配置环境变量
+
+在Python解释器目录下的Scripts文件夹中可找到一个django-admin.exe文件，这是Django的核心管理程序，将它加入操作系统的环境变量。
+
+```shell
+django-admin help
+```
+
+## 创建项目
+
+```shell
+django-admin startproject djangoProject
+```
+
+## 运行
+```shell
+python manage.py runserver
 ```
