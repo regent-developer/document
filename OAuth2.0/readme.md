@@ -29,3 +29,11 @@ https://oauth.net/2/
 
 
 ### 客户端模式（client credentials）
+
+https://www.cnblogs.com/youcoding/p/13941387.html
+
+https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html
+
+
+服务认证授权：OAuth2.0
+https://blog.csdn.net/qq_38490457/article/details/113801009
