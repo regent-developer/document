@@ -1564,3 +1564,6 @@ BNF（Backus-Naur Form，巴科斯－诺尔范式）是一种上下文无关语�
 
 ## 兼容分时系统诞生
 1961 年 11 月，兼容分时系统诞生。分时系统是一种资源共享方式：通过多道程序与多任务处理，多个用户可以同时使用一台计算机。MIT的兼容分时系统（Compatible Time-Sharing System，CTSS）是最早的分时系统之一，由费南多·柯巴托负责开发。
+
+## Multics 项目启动
+1964 年 11 月，Multics项目启动。MIT、贝尔实验室及通用电气开始共同研发Multics（Multiplexed Information and Computing System，多任务信息与计算系统）。Multics 基于兼容分时系统设计，首次进行了多用户、多任务操作系统方向的尝试，是现代主流操作系统的鼻祖。
