@@ -1603,3 +1603,6 @@ BNF（Backus-Naur Form，巴科斯－诺尔范式）是一种上下文无关语�
 
 ## 微软首次发布 Microsoft Office
 1990 年 11 月 19 日，微软首次发布 Microsoft Office。这一天，微软发布了 Windows 版本的 Microsoft Office，其中包含了文档处理工具 Word、表格处理工具 Excel，以及演示文档工具 PowerPoint，被后人合称“办公三件套”。
+
+## 微软发布 Windows 1.0
+1985 年 11 月 20 日，微软发布 Windows 1.0。Microsoft Windows 是微软推出的系列商业软件操作系统。1.0 版是其第一款基于图形用户界面的操作系统，运行于 MS-DOS 之下的桌面环境。
