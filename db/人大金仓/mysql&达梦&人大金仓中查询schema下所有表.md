@@ -22,8 +22,10 @@ group by
 ```sql
 # 查看某schema下所有表（不需要DBA权限）
 select TABLE_NAME as tbName from all_tables where OWNER ='SYSDBA' 
+
 # 查看某schema下所有表（需要DBA权限） 
 select owner,SEGMENT_NAME as tbName from dba_segments  where segment_type='TABLE' and OWNER ='SYSDBA'
+
 # 查看当前用户下所有表
 select table_name as tbName from user_tables where  table_name like 'SYS_%' group by TABLE_NAME
 ```
