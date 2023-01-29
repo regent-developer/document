@@ -1771,3 +1771,6 @@ World!","Hello, World!大概是全世界最流行的代码，许多初学者运�
 
 ## Lisa
 1983 年 1 月 19 日，苹果公司推出 Lisa。Lisa 为全球第一款搭载图形用户界面和鼠标的商用个人计算机，配置了 5 MHz 的摩托罗拉 68000 微处理器。
+
+## Objective-C
+1984 年，Objective-C 首次出现。Objective-C 是面向对象的通用、高级编程语言。它扩展了标准的 ANSI C，将 Smalltalk 式消息传递机制加入 ANSI C。Objective-C 由布莱德·考克斯和汤姆·洛夫设计。1986 年 1月，考克斯出版了一本书，完整描述了 Objective-C 的设计理念。
