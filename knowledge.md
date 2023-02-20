@@ -1866,3 +1866,6 @@ Julia 设计的独特之处包括，参数多态的类型系统，完全动态�
 
 ## Hacker News 上线
 2007 年 2 月 19 日，Hacker News 上线。Hacker News 是一家技术类社交新闻网站，用户可分享编程、技术和创业方面的文章，并就文章内容展开积极讨论。Hacker News 由 YC 孵化器孵化，并使用保罗·格雷厄姆（Paul Graham）等设计的 Arc 语言开发而来。
+
+## Python
+"print ""Happy Birthday to Python!"" 1991 年 2 月 20 日，Python 正式发布。30 年前的今天，吉多·范罗苏姆正式对外公布 Python 代码，版本为 0.9.0。巧的是，Python 3.2.0 恰好是 20 年之后发布的。当前，Python 稳定版为 3.9.1。"
