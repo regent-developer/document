@@ -1869,3 +1869,11 @@ Julia 设计的独特之处包括，参数多态的类型系统，完全动态�
 
 ## Python
 "print ""Happy Birthday to Python!"" 1991 年 2 月 20 日，Python 正式发布。30 年前的今天，吉多·范罗苏姆正式对外公布 Python 代码，版本为 0.9.0。巧的是，Python 3.2.0 恰好是 20 年之后发布的。当前，Python 稳定版为 3.9.1。"
+
+## Facebook 收购 WhatsApp
+2014 年 2 月 19 日，Facebook（现 Meta）宣布以美金 190 亿元全面收购 WhatsApp，其中 40 亿美元为现金支付，而大约 120 亿美元的部分以 Facebook 股票形式交易，另外 Facebook 将向 WhatsApp 员工发放价值 30 亿美元特别股份作为分红。WhatsApp 总部仍将留在加州山景城（Mountain View），继续作为独立业务，并保留自己的品牌，而创办人兼首席执行官库姆（Jan Koum）则加入 Facebook 董事会。
+
+2014 年 2 月 20 日凌晨，Facebook 宣布，该公司已经同快速成长的跨平台移动通讯应用 WhatsApp 达成最终协议，将以大约 160 亿美元的价格，外加 30 亿美元限制性股票，共计 190 亿美元收购 WhatsApp。彭博社称此交易是继 2001 年时代华纳与 AOL 的合并之后互联网产业最大规模的并购交易。对于 Facebook 来说，虽然人人都知道可以在电脑上用脸书进行社交，但却鲜有人给 Facebook 的移动端买账，这导致了 Facebook 自身在移动平台表现不佳，在移动端并没有展现出统治力；因此，这一场收购，是 Facebook 在收购 Instagram 之后的第二次向移动市场进攻。
+
+WhatsApp 由美国人布莱恩·艾克顿（Brian Acton）和乌克兰人简·库姆（Jan Koum）于 2009 年推出，他们两人曾经都是雅虎的员工。WhatsApp 公司总部在美国加州。产品推出时，两人对产品的定位就是手机短信的替代品。因此从功能上，WhatsApp 非常简洁，就是帮用户收发信息。相比于亚洲聊天应用微信、Line、KakaoTalk 里的卡通聊天表情、游戏、社交圈分享等功能，WhatsApp 一概没有。
+
