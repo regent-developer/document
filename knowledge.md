@@ -1891,4 +1891,7 @@ WhatsApp 由美国人布莱恩·艾克顿（Brian Acton）和乌克兰人简·�
 
 2006 年 4 月 23 日，埃克在瑞典斯德哥尔摩与 Martin Lorentzon 合并成立了 Spotify AB。Lorentzon 之前曾在数字营销公司 TradeDoubler 工作，正是该公司收购了 Ek 的那家广告公司 Advertigo。2008 年 10 月，两人成立的公司正式推出了主打正版的音乐流媒体服务 Spotify。最初，Spotify 在 P2P 分发模式上运行，类似于 uTorrent，到了 2014 年切换成服务器-客户端模式。2015 年 10 月，Spotify 联合创始人 Martin Lorentzon 宣布他将辞去董事长一职，而 Ek 接任了他的首席执行官职务。2017 年，埃克被 Billboard 评为音乐界最具影响力的人物。截至 2022 年 12 月，Spotify 已成为世界上最大的音乐流媒体服务提供商之一，每月活跃用户超过 4.89 亿，其中包括 2.05 亿付费用户。
 
+## Apache HTTP Server
+1995 年 2 月，Apache HTTP Server 发布。Apache HTTP Server 是最流行的 Web 服务器软件之一，是 Apache 软件基金会发布的一款开源网页服务器，最初由 NCSA HTTPd 1.3 服务器发展而来，因跨平台、安全性和稳定性获得了广泛应用。
+
 
