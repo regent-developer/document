@@ -2,7 +2,7 @@
 
 # 安装
 ```shell
-chomd 755 -R Install_TW7.0.3.0_Enterprise_Linux.bin
+chmod 755 -R Install_TW7.0.3.0_Enterprise_Linux.bin
 
 ./Install_TW7.0.3.0_Enterprise_Linux.bin
 ```
