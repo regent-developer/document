@@ -47,3 +47,23 @@ Class08 <--> C2: Cool label
 ```
 
 ### open with vscode
+
+## 上下标
+
+* 上标：${正常内容}^{上标内容}$
+
+* 下标：${正常内容}_{下标内容}$
+
+## 字母头部加帽子
+* $\vec{a}$				向量
+* $\overline{a}$			平均值
+* $\widehat{a}$			(线性回归，直线方程)y尖
+* $\dot{a}$				一阶倒数
+* $\ddot{a}$				二阶导数
+* $\hat{a}$				^帽子命令
+* $\tilde{a}$				~帽子命令
+* $\check{a}$				倒尖帽子命令
+* $\grave{a}$				4声调帽子命令    
+* $\acute{a}$				2声调帽子命令
+* $\widehat{abcdefg}$		大^帽子命令
+* $\widetilde{abcdefg}$	大~帽子命令
