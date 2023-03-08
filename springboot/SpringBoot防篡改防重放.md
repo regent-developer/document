@@ -2,6 +2,8 @@
 
 基于nonce + timestamp 的方案：nonce的意思是仅一次有效的随机字符串，要求每次请求时该参数要保证不同。实际使用用户信息+时间戳+随机数等信息做个哈希之后，作为nonce参数。
 
+Nonce是Number once的缩写，在密码学中Nonce是一个只被使用一次的任意或非重复的随机数值。
+
 ## 流程
 * 在redis中查找是否有key为nonce:{nonce}的string。
 * 如果没有，则创建这个key，把这个key失效的时间和验证timestamp失效的时间一致，比如是60s。
