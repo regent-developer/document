@@ -5,3 +5,11 @@ Magento是一款新的专业开源电子商务平台，采用php进行开发，�
 https://github.com/magento/magento2
 
 Magento中文社区 https://bbs.mallol.cn/
+
+## 配置变量位置
+* app/etc/env.php
+* app/etc/config.php
+* table/core_config_data
+* module里定义的config.xml
+
+magento读取配置的顺序是按照上面顺序依次读取，如果一个配置重复定义，则按照上面的优先级读取。
