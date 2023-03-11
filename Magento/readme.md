@@ -123,3 +123,18 @@ php bin/magento XXXXX
 在di.xml中有有两种方法：
 * perference for ...  type ...：perference方式是完全覆盖原有的类。
 * type name ... plugin name ... type ...：不算重写，允许在挂接的类的方法之前，周围或者之后执行代码。茶碱类不会替换目标类，它不是一个实例。只有before{method}，around{method}，after{method}方法，这些方法在目标类上的{method}的适当时间执行。由于插件不会替换目标类，因此可以同时在一个类上激活任意数量的插件。magento只是根据xml中的sortOrder参数一个接一个地执行它们。
+
+### widget
+
+widget可以从数据库获取数据并展示为html页面的代码，可以添加到cms页面中或，在其他页面中调用和展示。
+
+#### 安装
+Magento_Widget依赖以下模块：
+* Magento_Catalog
+* Magento_Cms
+* Magento_Store
+
+在禁用或卸载之前，依赖以下模块：
+* Magento_CatalogWidget
+* Magento_CurrencySymbol
+* Magento_im
