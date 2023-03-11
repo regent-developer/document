@@ -57,3 +57,17 @@ Model层包含ResourceMOdel层，ResourceModel包含Collection层，每个层提
 模板数据来源与哪一个block文件，是由layout布局机制指定。
 
 
+## magento命令行
+```shell
+php bin/magento XXXXX  
+```
+
+### 常用命令
+* php bin/magento setup:upgrade：用于更新module，当修改了一个模块的di.xml文件，配置文件，或者新建一个module时会用到该命令。
+
+* php bin/magento cache:clean：用于更新缓存，当更改了后台配置，修改了模块，刷新页面发现没有变化时，使用该命令。
+
+* php bin/magento setup:di:compile：用于重新编译class文件，当系统报错找不到某些class文件时，或者某个module修改了di.xml文件时，需要手动重新编译。
+
+* php bin/magento indexer:reindex：重建索引，当发现在某些场景下，数据显示不正确，或者数据没有同步，该命令可手动重建索引。
+
