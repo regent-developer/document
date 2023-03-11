@@ -117,3 +117,9 @@ php bin/magento XXXXX
 * 修改di.xml
 * 新建model
 * block中调用重写的model
+
+### 重写其他类
+
+在di.xml中有有两种方法：
+* perference for ...  type ...：perference方式是完全覆盖原有的类。
+* type name ... plugin name ... type ...：不算重写，允许在挂接的类的方法之前，周围或者之后执行代码。茶碱类不会替换目标类，它不是一个实例。只有before{method}，around{method}，after{method}方法，这些方法在目标类上的{method}的适当时间执行。由于插件不会替换目标类，因此可以同时在一个类上激活任意数量的插件。magento只是根据xml中的sortOrder参数一个接一个地执行它们。
