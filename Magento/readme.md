@@ -86,4 +86,15 @@ php bin/magento XXXXX
 
 布局文件的命名规则：路由_控制器目录名_控制器名.xml
 
+### 重写控制器
+
+前提：在app/code下新建重写的模块xxx，在该模块的etc目录下新建module.xml文件，模块根目录下新建registration.php，使用命令php bin/magento setup:upgrade进行模块的注册。
+
+* 新建并修改路由文件：在app/code/xxx/xxx/etc/frontend/下新建routes.xml文件，并重写。
+* 新建并修改依赖注入di.xml文件：在app/code/xxx/xxx/etc/下新建di.xml文件，并重写。
+* 新建控制器->重写控制器
+* 更新module：php bin/magento setup:upgrade
+* 重新生成编译文件：php bin/magento setup:deploy:compile
+* 设置目录权限：chmod -R 777 ./
+
 
