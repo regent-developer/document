@@ -110,3 +110,10 @@ php bin/magento XXXXX
 * 添加新block文件和模板文件
 * 更新module：php bin/magento setup:upgrade
 * 设置目录权限：chmod -R 777 ./
+
+
+### 重写model
+
+* 修改di.xml
+* 新建model
+* block中调用重写的model
