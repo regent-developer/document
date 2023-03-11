@@ -97,4 +97,9 @@ php bin/magento XXXXX
 * 重新生成编译文件：php bin/magento setup:deploy:compile
 * 设置目录权限：chmod -R 777 ./
 
+### 重写模板
+
+* 找到layout文件
+* 新建自定义module下的layout文件，指定新的模板
+* 添加新模板
 
