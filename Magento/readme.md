@@ -20,3 +20,12 @@ magento的控制器通常不会直接向模板传递数据，但提供了向bloc
 模板中数据来源与block文件。  
 控制器只有一个方法execute()，控制器的入口方法。
 
+
+## MVC-Model
+
+Model分为以下三个层：
+* Model层
+* ResourceModel层
+* Collection层
+
+Model层包含ResourceMOdel层，ResourceModel包含Collection层，每个层提供了不同的功能。
