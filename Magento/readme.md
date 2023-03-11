@@ -29,3 +29,8 @@ Model分为以下三个层：
 * Collection层
 
 Model层包含ResourceMOdel层，ResourceModel包含Collection层，每个层提供了不同的功能。
+
+## MVC-Block
+用于向视图层展示数据，大部分业务逻辑会卸载block层中。
+
+
