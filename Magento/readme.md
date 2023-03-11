@@ -6,6 +6,24 @@ https://github.com/magento/magento2
 
 Magento中文社区 https://bbs.mallol.cn/
 
+
+## 模块目录结构
+在app/code目录下建立
+
+* controller：控制器目录
+* model：模型层目录
+* block：block层目录
+* view：视图层，模板，layout，js，css等目录
+* etc：模块配置目录
+* i18n：翻译语言包目录
+* frontendend：前台目录
+* adminhtml：后台目录
+* console：控制台命令行目录
+* observer：观察者（事件）目录
+* UI：ui组件目录
+* helper：帮助类目录
+* api：提供api的目录
+
 ## 配置变量位置
 * app/etc/env.php
 * app/etc/config.php
