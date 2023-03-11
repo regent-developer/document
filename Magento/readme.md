@@ -103,3 +103,10 @@ php bin/magento XXXXX
 * 新建自定义module下的layout文件，指定新的模板
 * 添加新模板
 
+### 重写block
+
+* 找到layout文件
+* 新建自定义module下的layout文件，指定新的block和模板文件
+* 添加新block文件和模板文件
+* 更新module：php bin/magento setup:upgrade
+* 设置目录权限：chmod -R 777 ./
