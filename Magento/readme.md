@@ -138,3 +138,8 @@ Magento_Widget依赖以下模块：
 * Magento_CatalogWidget
 * Magento_CurrencySymbol
 * Magento_im
+
+### 主题
+一个网站的页面风格，可以一键切换模板，样式。主题目录通常存放模板文件，css，js。
+
+主题目录：app/design
