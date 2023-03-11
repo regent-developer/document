@@ -33,4 +33,7 @@ Model层包含ResourceMOdel层，ResourceModel包含Collection层，每个层提
 ## MVC-Block
 用于向视图层展示数据，大部分业务逻辑会卸载block层中。
 
+## MVC-模板
+模板以.phtml后缀结尾，magento没有采用单独的模板引擎，二十采用php和html代码混写的方式。因此，在模板中可以调用block方法获取数据，也可以直接获取数据库连接对象，直接写数据库查询语句，直接调用php函数，直接写php逻辑。
+
 
