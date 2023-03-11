@@ -13,3 +13,10 @@ Magento中文社区 https://bbs.mallol.cn/
 * module里定义的config.xml
 
 magento读取配置的顺序是按照上面顺序依次读取，如果一个配置重复定义，则按照上面的优先级读取。
+
+## MVC-Controller
+
+magento的控制器通常不会直接向模板传递数据，但提供了向block传递数据的能力。  
+模板中数据来源与block文件。  
+控制器只有一个方法execute()，控制器的入口方法。
+
