@@ -7,6 +7,22 @@ https://github.com/magento/magento2
 Magento中文社区 https://bbs.mallol.cn/
 
 
+## 修改IP的操作
+
+* 修改虚拟机的固定IP（虚拟机网络桥接）
+* 修改core_config_data表中的web/unsecure/base_url的value设置为修改后的IP
+* 执行清理缓存的命令（不清理缓存，将不能生效）
+```shell
+# 进入docker容器
+docker exec -it almp-php73 bash
+
+# 进入var/www/html/magento目录后执行清理缓存名利命令
+php bin/mangeto c:c
+
+# 设置权限
+chmod -R 777 ./
+```
+
 ## 模块目录结构
 在app/code目录下建立
 
@@ -143,3 +159,7 @@ Magento_Widget依赖以下模块：
 一个网站的页面风格，可以一键切换模板，样式。主题目录通常存放模板文件，css，js。
 
 主题目录：app/design
+
+### 其他
+
+#### 
