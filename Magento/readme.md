@@ -160,6 +160,19 @@ Magento_Widget依赖以下模块：
 
 主题目录：app/design
 
-### 其他
+### 使用的相关linux命令
 
-#### 
+#### tar命令压缩文件
+```shell
+tar cvf xxx.tar.gz xxx（将xxx目录压缩为xxx.tar.gz文件）
+```
+
+#### zip命令压缩文件
+```shell
+zip -r xxx.zip xxx（将xxx目录压缩为xxx.zip文件）
+```
+
+#### scp命令下载文件
+```shell
+scp root@127.0.0.1:/home/xxx.tar.gz .（把服务器的xxx.tar.gz目录复制到当前目录下）
+```
