@@ -160,6 +160,14 @@ Magento_Widget依赖以下模块：
 
 主题目录：app/design
 
+
+### vscode相关插件
+* PHP InetlliSense：php语法错误提示
+* phpfmt：php代码格式化
+* SFTP：使用SFTP方式编辑Linux文件
+* Remote SSH：使用SSH服务连接服务器
+
+
 ### 使用的相关linux命令
 
 #### tar命令压缩文件
