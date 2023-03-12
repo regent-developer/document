@@ -163,7 +163,7 @@ Magento_Widget依赖以下模块：
 
 ### vscode相关插件
 * PHP InetlliSense：php语法错误提示
-* phpfmt：php代码格式化
+* phpfmt：php代码格式化（右键Format Document或者F1输入format找到Format Document并回车）
 * SFTP：使用SFTP方式编辑Linux文件
 * Remote SSH：使用SSH服务连接服务器
 
