@@ -160,6 +160,23 @@ Magento_Widget依赖以下模块：
 
 主题目录：app/design
 
+### 引入js
+* 模板文件中初始化js引入
+```html
+<script type="text/x-magento-init">
+    {"*", {"xxx":{}}}
+</script>
+```
+适用于页面加载完，引入yigejs文件的场景
+
+* 在指定的html元素上绑定js
+```html
+<div data-mage-init='{"xxx" : {"option" : value}}'>
+</div>
+```
+适用于页面某个元素绑定某个事件，js文件中可以接受到该元素对象，对其绑定click，submit事件等等
+
+
 
 ### vscode相关插件
 * PHP InetlliSense：php语法错误提示
