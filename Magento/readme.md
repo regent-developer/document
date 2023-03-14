@@ -194,6 +194,16 @@ Magento_Widget依赖以下模块：
 * $block->hasData('store_name')
 * $block->hasStoreName()
 
+#### 重写模板的场景
+* 在自定义模块中，指定layout的xml文件，且布局文件与原系统xml文件名相同，则会重写该layout文件，在我们自己定义的xml文件中指定新的模板，通常会把xml文件和模板文件放在主题目录下。
+* 在主题目录中直接重写模板。如果我们只是修改一下页面的样式，修改文字等等，并不需要block功能的配合，单独重写模板，可以按照原来的模板目录结构，即vender下对应的module/view/frontend/templates目录下的结构，在主题目录下建立相同路径的模板文件，即便不指定xml文件，也可直接重写该模板。
+
+#### knockout类型模板
+
+通常用于购物车，结算页面，以html结尾，并不是以phtml结尾。
+
+
+
 
 ### vscode相关插件
 * PHP InetlliSense：php语法错误提示
