@@ -81,6 +81,9 @@ docker ps
 docker ps -a 
 # 使用img_name以交互模式在后台运行分配了伪终端的名为container_name的镜像
 docker run -itd --name=container_name img_name 
+
+* -p port1:port2：第一个端口为宿主主机的端口，第二个为docker的端口，两者互相独立而不干扰，在外界访问时服务器时，先通过宿主机的端口访问，然后docker会监听对应的端口从而将宿主机的端口映射为容器的端口
+
 # 通过容器名字或ID启动容器
 docker start container_name/container_id 
 # 通过容器名字或ID停止容器
@@ -91,6 +94,15 @@ docker restart container_name/container_id
 docker rm container_name/container_id 
 # 通过容器名字或ID进入容器
 docker exec -it container_name/container_id /bin/bash 
+
+# 获取元数据
+docker inspect container_id 
+
+# 查询卷挂载目录列表
+docker volume ls
+# 根据指定列查出此列的文件地址
+docker volume inspect mysql_data
+
 # 查看docker日志
 cat /var/log/docker
 # 查询删除docker
