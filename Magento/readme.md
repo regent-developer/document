@@ -216,6 +216,8 @@ magento使用Requirejs作为js的加载方式，使用requirejs支持异步加�
 在模板中为不是布局文件中指定js资源，以确保资源可用于页面正文。
 
 
+
+
 ### vscode相关插件
 * PHP InetlliSense：php语法错误提示
 * phpfmt：php代码格式化（右键Format Document或者F1输入format找到Format Document并回车）
