@@ -176,6 +176,23 @@ Magento_Widget依赖以下模块：
 ```
 适用于页面某个元素绑定某个事件，js文件中可以接受到该元素对象，对其绑定click，submit事件等等
 
+### 模板
+
+#### 模板位置
+* Module模块下的模板：/View/frontend/templates/
+* Theme主题下的模板：/_/templates/
+
+#### 模板从layout文件中获取参数
+```xml
+<arguments>
+  <argument name="store_name" xsi:type="string">test name</argument>
+</arguments>
+```
+
+* $block->getData('store_name')
+* $block->getStoreName()
+* $block->hasData('store_name')
+* $block->hasStoreName()
 
 
 ### vscode相关插件
