@@ -64,6 +64,18 @@ Model分为以下三个层：
 
 Model层包含ResourceMOdel层，ResourceModel包含Collection层，每个层提供了不同的功能。
 
+### Model层说明
+* Model层（ORM）用来定义数据表和数据访问对象的映射，相当于把一张表映射为一个类
+* 通常把查询数据的方法写在Model层
+* 通常一个Model对应一张数据表 
+* 把查询数据的逻辑写在Model层的好处是便于代码重用，即不同的控制器或API，需要查询某个数据表的数据，可以共用Model层的方法
+* 复杂一点的架构可以再分出一个service层或logic，这样查询数据的逻辑从Model层迁移到service层，Model只负责数据表与对象的映射关系
+
+### magento的数据查询方式
+* 使用model层方式查询数据，ORM方式
+* 直接获取数据库查询对象，使用sqlBuilder封装sql查询
+
+
 ## MVC-Block
 用于向视图层展示数据，大部分业务逻辑会卸载block层中。
 
