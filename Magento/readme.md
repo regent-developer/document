@@ -75,6 +75,14 @@ Model层包含ResourceMOdel层，ResourceModel包含Collection层，每个层提
 * 使用model层方式查询数据，ORM方式
 * 直接获取数据库查询对象，使用sqlBuilder封装sql查询
 
+```php
+获取对象管理器：
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+获取数据库连接：
+$db = $objectManager->get( 'Magento\Framework\App\ResourceConnection' )->getConnection();
+接下来就可以使用SqlBuilder构建sql查询：
+$db->select()->where()->xxx
+```
 
 ## MVC-Block
 用于向视图层展示数据，大部分业务逻辑会卸载block层中。
