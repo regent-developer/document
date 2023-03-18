@@ -84,6 +84,24 @@ $db = $objectManager->get( 'Magento\Framework\App\ResourceConnection' )->getConn
 $db->select()->where()->xxx
 ```
 
+### 如何使用Model
+* 在控制器或者block中通过__construct方法获取(生成对象工厂)
+```php
+public function __construct(Partner\Brands\Model\Brands $brands) {
+      $this->_brands= $brands;
+}
+```
+
+* 使用对象管理器获取
+```php
+//获取对象管理器
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+//通过对象管理器获取指定的对象
+$collection = $objectManager->get( 'Partner\Brands\Model\Brands');
+```
+
+
+
 ## MVC-Block
 用于向视图层展示数据，大部分业务逻辑会卸载block层中。
 
