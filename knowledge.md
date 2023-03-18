@@ -2063,4 +2063,14 @@ Windows NT 历时之长、耗资之巨、人员之多，可以说是对软件工
 自 1990 年代以来，微软从局限于操作系统市场变得日益多元化，取得了许多企业收购，其中最大的一笔交易是 2016 年 12 月以 262 亿美元收购 LinkedIn ，其次是 2011 年 5 月以 85 亿美元收购 Skype Technologies。但是，随着这次上市之后，微软迎来了和 IBM 的合作，美国联邦贸易委员会因此审查了微软可能存在的勾结，导致着微软在接下来十多年里陷入了无休止的反垄断战争之中。
 
 
+## 微软发布 Internet Explorer 9
+Windows Internet Explorer 9（IE9）是微软开发的浏览器 Internet Explorer 的稳定版本，于 2011 年 3 月 14 日向公众发布。IE9 支持部分 CSS3 属性，透过 Windows Color System 支持内嵌 ICC v2 或 v4 色彩配置，并且提升了 JavaScript 的性能。IE9 还利用 Direct2D、DirectWrite 和 Media Foundation 实现了硬件加速的图像、包含 Windows Imaging Component 提供的映像功能以及由 XPS 打印管道提供的低有损打印功能。除此之外，IE9 新增新选项卡显示用户常用网站的图标、钉选网站到任务栏、附加组件性能警告、内置下载管理员等功能。
+
+微软只单独发布 Internet Explorer 9，从未打算于任何官方版本的 Windows 系统内预载。与此同时，IE9 只支持 Windows Vista SP2 及 Windows 7，对于当时在亚太地区尚极为普及的 Windows XP 却抱放弃态度，不对任何版本的 Windows XP 进行支持，Windows XP 用户只能更新至 IE 8。此外，IE9 也是最后一个支持 Windows Vista 的版本，IE10 只能运行于 Windows 7 或更新版本。
+
+IE9 在 IE8 发布不久之后开始开发，微软在 IE8 发布之后便开始通过 Microsoft Connect 征集建议。微软在 PDC 2009 首次公布了 IE9，主要谈及 IE9 将如何利用 DirectX 中的硬件加速改善网络应用程序的性能和提升网页排版的质量。随后，微软宣布加入 W3C 的 SVG 工作组，并在 MIX 10 上发布了第一个 IE9 预览版，包含对 CSS 3 和 SVG 支持和一个名为“Chakra”的新 JavaScript 引擎。
+
+经过了多次对 Trident 排版引擎的测试，微软最终得以在 2010 年 9 月 4 日发布 IE9 Beta，这次包含了完整的使用接口。2011 年的今天，微软在德克萨斯州奥斯汀市 SXSW 音乐和电影节发布 IE9 RTM 正式版；这是自 Internet Explorer 2 以来第一个不与 Windows 操作系统捆绑的版本，大多数 Windows 版本对 IE9 的支持于 2016 年 1 月 12 日结束，当时微软开始要求客户使用适用于每个 Windows 版本的最新版本的 Internet Explorer。2020 年 1 月 14 日，微软发布了针对 Windows Server 2008 的 IE9 最终更新，标志着对所有平台的 IE9 支持结束。
+
+
 ## 
