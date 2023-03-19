@@ -253,7 +253,39 @@ magento使用Requirejs作为js的加载方式，使用requirejs支持异步加�
 
 在模板中为不是布局文件中指定js资源，以确保资源可用于页面正文。
 
+### Plugin机制-拦截器
+插件或拦截器是一个类，它通过截取函数调用并在该函数调用之前、之后或周围运行代码来修改公共类函数的行为。这允许您为任何类或接口替换或扩展原始公共方法的行为。  
 
+希望拦截和更改公共方法行为的扩展可以创建插件类。  
+
+这种拦截方法减少了更改同一类或方法行为的扩展之间的冲突。插件类实现会更改类函数的行为，但不会更改类本身。Magento根据配置的排序，顺序调用这些拦截器，因此它们不会相互冲突。  
+
+拦截器通常只对public的类进行修改。  
+我们可以把拦截器当成一个观察者，被修改的对象当作被观察者。  
+
+#### Plugin声明方式：
+在自定义的module的di.xml中声明一个Plugin类
+
+```xml
+<config>
+    <type name="{ObservedType}">
+      <plugin name="{pluginName}" type="{PluginClassName}" sortOrder="1" disabled="false" />
+    </type>
+</config>
+```
+- `type name`. Plugin类要观察的class 或者interface
+- plugin name 给Plugin类起的名字
+- plugin type 实际的Plugin类
+- sortOrder(可选) 调用相同方法的插件使用以下顺序运行它们。
+- disabled(可选，默认为false) 设置为true则禁用Plugin
+
+#### 插件类的写法 Before methods
+Magento在调用观察到的方法之前运行所有before方法。这些方法必须与观察到的方法同名，前缀为“before”。
+
+您可以使用before方法通过返回修改的参数来更改观察到的方法的参数。如果有任何参数，该方法应返回这些参数的数组。如果该方法未更改所观察方法的参数，则应返回空值。
+
+#### 插件类的写法 After methods
+After方法不需要声明其观察到的方法的所有参数，方法使用的参数和观察到的方法中位于这些使用的参数之前的任何参数除外。
 
 
 ### vscode相关插件
