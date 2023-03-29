@@ -14,7 +14,7 @@ Magento中文社区 https://bbs.mallol.cn/
 * 执行清理缓存的命令（不清理缓存，将不能生效）
 ```shell
 # 进入docker容器
-docker exec -it almp-php73 bash
+docker exec -it lamp-php73 bash
 
 # 进入var/www/html/magento目录后执行清理缓存名利命令
 php bin/mangeto c:c
