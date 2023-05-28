@@ -2265,3 +2265,6 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 ## GM 密码系统诞生
 
 1982 年 5 月，GM 密码系统诞生。戈德瓦塞尔和米卡利发表经典论文“Probabilistic Encryption & How To Play Mental Poker Keeping Secret All Partial Information”，提出 GM 密码系统（Goldwasser-Micali）。
+
+## 图灵提交划时代论文
+1936 年 5 月 28 日，图灵提交划时代论文。图灵在《论可计算数及其在判定问题上的应用》中阐述了图灵机的概念。图灵机属于思想实验，体现了现代计算机的所有逻辑功能。这台“机器”由无限长的纸带、读写头、控制器和寄存器组成。
