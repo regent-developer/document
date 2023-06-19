@@ -2361,3 +2361,9 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 ## 线性图论算法知名论文发表
 
 1972 年 6 月，线性图论算法知名论文发表。在这篇“Depth-First Search and Linear Graph Algorithms”论文中，罗伯特·塔扬深入分析了深度优先搜索的各种性质，指出了强连通分量和双连通分量问题的高效算法，即 Tarjan 算法。
+
+
+
+## Keyboard not found
+
+"Keyboard not found, Press F1 to Resume" 20 世纪 80 年代中期，在开机检测没有找到键盘的情况下，AMI 公司的 BIOS 系统会给出 Keyboard not found, Press F1 to Resume 的错误提示，后来它成为愚蠢设计的经典案例。
