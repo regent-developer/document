@@ -2367,3 +2367,9 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 ## Keyboard not found
 
 "Keyboard not found, Press F1 to Resume" 20 世纪 80 年代中期，在开机检测没有找到键盘的情况下，AMI 公司的 BIOS 系统会给出 Keyboard not found, Press F1 to Resume 的错误提示，后来它成为愚蠢设计的经典案例。
+
+
+
+## “小婴儿”计算机首次成功运行
+
+1948 年 6 月 21 日，“小婴儿”计算机首次成功运行。曼彻斯特“小婴儿”（Manchester Baby）是世界上第一台能运行的存储程序式电子计算机。虽然没有执行实际计算任务，但它证明了存储程序概念的可行性。
