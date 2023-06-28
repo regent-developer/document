@@ -15,3 +15,19 @@ Keras 是一个模型级（ model-level）的Python深度学习框架，keras可
   组合
 - 支持任意网络架构：多输入或多输出模型、层共享、模型共享等。这也就是说， Keras
   能够构建任意深度学习模型，无论是生成式对抗网络还是神经图灵机
+
+## Keras和Tensorflow的关系
+
+* keras提供了一个高层次的构建模块
+* Keras 有三个后端实现方式： TensorFlow、Theano、微软认知工具包（ CNTK， Microsoft cognitive toolkit）
+* NVIDIA CUDA 深度神经网络库（ cuDNN），是 在 GPU 上，TensorFlow封装的一个高度优化的深度学习运算库
+* Eigen，是TensorFlow封装的一个低层次的张量运算库
+
+
+
+## Keras的开发步骤
+
+* 定义训练数据：输入张量和目标张量
+* 定义层组成的网络（或模型），将输入映射到目标
+* 配置学习过程：选择优化器、损失函数、监控指标
+* 调用模型的 fit 方法在训练数据上进行迭代
