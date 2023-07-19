@@ -2484,3 +2484,9 @@ QWERTY 是现如今广泛使用的计算机键盘布局。这种键盘布局最�
 ## 万维网上传了第一张照片
 
 1992 年 7 月 18 日，万维网上传了第一张照片。一般认为，取名为 Les Horribles Cernettes 的照片是第一张上传到万维网上的照片，也是广为人知的一张。该照片上的四位女子是伯纳斯－李工作的 CERN 实验室的女子乐队，由研发工程师西尔瓦诺拍摄。
+
+
+
+## Project Kotlin
+
+"2011 年 7 月 19 日，Project Kotlin 公开亮相。Kotlin 是一种在 Java 虚拟机上运行的静态类型编程语言，可以被编译成 JavaScript 源代码。Kotlin 受到 Java、C#、JavaScript、Scala、Groovy 等语言的影响，致力于成为 Android 开发的下一代编程语言。"
