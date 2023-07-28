@@ -32,3 +32,7 @@
 * 所有与响应时间相关的字段，单位都是毫秒
 * Average默认是单个请求的平均响应时长，当使用了事务控制器，也可以以事务为单位显示平均响应时长
 
+## 各版本下载链接
+
+http://archive.apache.org/dist/jmeter/binaries/
+
