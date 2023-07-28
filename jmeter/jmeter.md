@@ -36,3 +36,9 @@
 
 http://archive.apache.org/dist/jmeter/binaries/
 
+
+
+* Jmeter3.1版对应的插件版本为0.11
+
+  https://search.maven.org/remotecontent?filepath=kg/apc/jmeter-plugins-manager/0.11/jmeter-plugins-manager-0.11.jar
+
