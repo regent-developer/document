@@ -6,7 +6,9 @@ CWE常见缺陷列表(Common Weakness Enumeration)是MITRE公司（一个非盈�
 
 
 
-### CWE-20: Improper Input Validation
+## CWE-20: Improper Input Validation
+
+
 
 软件接收输入，但不会验证或者有效的验证输入是否安全。
 
