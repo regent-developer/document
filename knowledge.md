@@ -2550,3 +2550,9 @@ QWERTY 是现如今广泛使用的计算机键盘布局。这种键盘布局最�
 ## CAP 定理
 
 "1998 年，布鲁尔提出 CAP 定理。CAP 定理是指一个分布式系统不可能同时满足以下三点：一致性（Consistency）、可用性（Availability）和分区容错性（Partition tolerance）。CAP 定理一开始由布鲁尔以猜想的形式提出，又被称作布鲁尔定理。"
+
+
+
+## Machine Learning
+
+"1959 年 7 月，塞缪尔首创 Machine Learning 一词。塞缪尔在“Some Studies in Machine Learning Using theGame of Checkers”一文中给 Machine Learning 下了个非正式定义：没有明确编程指令的情况下，能让计算机学习的研究领域就是机器学习。"
