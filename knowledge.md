@@ -2604,3 +2604,9 @@ QWERTY 是现如今广泛使用的计算机键盘布局。这种键盘布局最�
 ## "SNARC诞生"
 
 "1951 年夏天，史上第一个可自学习的神经网络学习机 SNARC诞生。SNARC 是 Stochastic Neural Analog Reinforcement Calculator 的简称，即随机神经网络模拟加固计算器，模拟 40 个神经元的运行，由马文·明斯基和迪安·埃德蒙兹构建，是人工智能领域的先锋实验。"
+
+
+
+## “电子计算机”的概念
+
+1942 年 8 月，莫奇利提出“电子计算机”的概念。莫奇利在一份名为“The Use of High-Speed Vacuum Tube Devices for Calculating”的备忘录中提出了“电子计算机”的概念。这种计算机可以100 秒内完成“微分分析机”计算员至少需要几小时才能完成的计算。
