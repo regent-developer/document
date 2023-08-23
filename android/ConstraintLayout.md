@@ -1,5 +1,7 @@
 # ConstraintLayout
 
+从 Android Studio 2.3版本起，约束布局是Android Studio布局文件的默认布局。
+
 | 属性                                       | 描述                                                         |
 | ------------------------------------------ | ------------------------------------------------------------ |
 | app:layout_constraintLeft_toLeftOf         | 把A的left side放在B的left side（左边对齐）                   |
