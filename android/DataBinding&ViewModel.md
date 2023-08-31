@@ -30,7 +30,11 @@ android {
 
 ### layout xml配置
 
-使用layout和data标签
+使用layout和data标签。
+
+DataBinding布局文件以根标记 layout 开头，后跟 data 元素和 view 根元素。
+
+
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
