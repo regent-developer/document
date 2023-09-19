@@ -1,10 +1,12 @@
 import win32file
+# 需提前安装pywin32（https://github.com/mhammond/pywin32/releases）
 from datetime import datetime
 
 new_ctime = datetime.strptime("2023-03-06 16:00:00", "%Y-%m-%d %H:%M:%S")
 new_mtime = datetime.strptime("2023-03-06 16:00:00", "%Y-%m-%d %H:%M:%S")
 new_atime = datetime.strptime("2023-03-06 16:00:00", "%Y-%m-%d %H:%M:%S")
 
+# 文件路径
 file_path = "xxx.pdf"
 
 handle = win32file.CreateFile(
