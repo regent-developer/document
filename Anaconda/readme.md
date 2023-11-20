@@ -52,3 +52,74 @@ conda activate D:\python36\py36
 
 ## 切换环境
 
+```shell
+activate <env_name>
+```
+
+
+
+## 退出环境至root
+
+```shell
+deactivate
+```
+
+
+
+## 显示已创建环境
+
+```shell
+conda info -e
+
+conda env list
+```
+
+
+
+## 复制环境
+
+```shell
+conda create –name <new_env_name> –clone <copied_env_name>
+
+
+# conda create –name py2 –clone python2
+```
+
+
+
+## 删除环境
+
+```shell
+conda remove –-name <env_name> -–all
+
+# conda remove –-name python3 --all
+```
+
+
+
+## 分享环境
+
+```shell
+conda env export > environment.yaml
+```
+
+
+
+## 导入环境
+
+```shell
+conda env create -f environment.yaml
+```
+
+
+
+## 自动开启/关闭环境
+
+```shell
+conda activate   #默认激活base环境
+conda activate xxx  #激活xxx环境
+conda deactivate #关闭当前环境
+conda config --set auto_activate_base false  #关闭自动激活状态
+conda config --set auto_activate_base true  #关闭自动激活状态
+```
+
