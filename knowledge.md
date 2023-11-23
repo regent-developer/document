@@ -3136,3 +3136,9 @@ BNF（Backus-Naur Form，巴科斯－诺尔范式）是一种上下文无关语�
 ## RISC 是 CPU 的一种设计模式
 
 1980 年，大卫·帕特森创造 RISC 一词。RISC 是 CPU 的一种设计模式，名称最早来自帕特森在加州大学伯克利分校主持的 Berkeley RISC 计划。帕特森和 Séquin在 1981 年发表的论文“RISC I: A Reduced Instruction Set VLSI Computer”介绍了 RISC。
+
+
+
+## Diffie-Hellman 密钥交换
+
+1976 年 11 月，非对称加密技术创立。迪菲和赫尔曼发表经典论文“New Directions in Cryptography”，介绍了一种全新的密钥分配方法——Diffie-Hellman 密钥交换，是第一个在非保护信道中创建共享密钥的实用方法。两位受墨克研究的影响，开创了密码学新方向：非对称加密。
