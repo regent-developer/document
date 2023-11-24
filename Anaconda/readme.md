@@ -46,8 +46,29 @@ conda create --prefix=D:\python36\py36 python=3.6
 
 # 激活指定路径下的虚拟环境的命令
 conda activate D:\python36\py36
+
+
+# win10下激活环境
+activate xxx
 ```
 
+
+## 安装库
+
+
+```shell
+conda install xxx_lib
+
+```
+
+## 运行Python文件
+
+```shell
+# 激活环境
+activate xxx
+
+# 执行python文件
+pyth
 
 
 ## 切换环境
