@@ -2,6 +2,17 @@
 
 ## 安装（Windows）
 
+### 查看当前驱动版本以及支持的cuda版本
+
+```shell
+nvidia-smi
+```
+
+
+### 安装CUDA Toolkit（根据nvidia-smi查出的cuda版本）
+
+https://developer.nvidia.com/cuda-toolkit-archive
+
 ### 下载url
 
 https://www.anaconda.com/products/individual
