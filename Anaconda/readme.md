@@ -13,6 +13,13 @@ nvidia-smi
 
 https://developer.nvidia.com/cuda-toolkit-archive
 
+
+### 看当前安装的cuda的版本
+
+```shell
+nvcc -V 
+```
+
 ### 下载url
 
 https://www.anaconda.com/products/individual
