@@ -151,6 +151,11 @@ conda env create -f environment.yaml
 ```
 
 
+### 清理
+```shell
+conda clean -p
+conda clean -t
+```
 
 ## 自动开启/关闭环境
 
