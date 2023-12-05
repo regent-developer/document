@@ -3184,3 +3184,10 @@ BNF（Backus-Naur Form，巴科斯－诺尔范式）是一种上下文无关语�
 
 1995 年 12 月 4 日，网景与 Sun 联合发布了 JavaScript。JavaScript 1.0 版本随 Netscape Navigator 2 发布。经过多年的发展，如今的JavaScript 已经非常强大，是一门动态类型的高级语言，支持面向对象、命令式以及函数式编程。
 
+
+
+
+
+## 分布式文件系统 GFS
+
+GFS（Google File System，谷歌文件系统）是谷歌提出的一种专有分布式文件系统。GFS 由早期的 BigFiles 发展而来，以满足谷歌搜索引擎的海量数据存储和使用需求。GFS 的特点是更好地应对单节点的高故障率和随后的数据丢失问题。HDFS 是 GFS 的一个开源实现。
