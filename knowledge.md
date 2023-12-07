@@ -3197,3 +3197,9 @@ GFS（Google File System，谷歌文件系统）是谷歌提出的一种专有�
 ## 分布式计算框架
 
 MapReduce 是由谷歌提出的一种框架（或者说算法），用于处理大规模数据的并行运算。MapReduce 的主要思想来自函数式编程中常用的 map 和reduce，但其关键贡献在于通过优化执行引擎为各种应用实现的可扩展性和容错性。Hadoop 是 MapReduce 的一个开源实现。
+
+
+
+## 分布式存储系统
+
+Bigtable 是谷歌提出的一种专有分布式存储系统，用于存储大规模结构化数据。Bigtable 适用于云端计算，属于谷歌云平台的一部分。Bigtable基于 GFS、Chubby Lock Service、SSTable 等技术构建，核心优势在于扩展性和性能。HBase 是 Bigtable 的一个开源实现。
