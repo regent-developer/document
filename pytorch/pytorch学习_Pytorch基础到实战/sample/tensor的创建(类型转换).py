@@ -1,0 +1,30 @@
+import torch
+
+data = torch.randn(2, 3)
+data = torch.full([3, 4], 10)
+print(data.dtype)
+
+print('第一种方法')
+data = data.type(torch.DoubleTensor)
+print(data.dtype)
+data = data.type(torch.ShortTensor)
+print(data.dtype)
+data = data.type(torch.IntTensor)
+print(data.dtype)
+data = data.type(torch.FloatTensor)
+print(data.dtype)
+data = data.type(torch.LongTensor)
+print(data.dtype)
+
+
+print('第二种方法')
+data = data.double()
+print(data.dtype)
+data = data.short()
+print(data.dtype)
+data = data.int()
+print(data.dtype)
+data = data.long()
+print(data.dtype)
+data = data.float()
+print(data.dtype)
