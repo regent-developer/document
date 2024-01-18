@@ -6,7 +6,7 @@ LiteFlow是一个轻量且强大的国产规则引擎框架，可用于复杂的
 
 https://liteflow.cc/
 
-![](C:\Users\user\Downloads\arch.svg)
+![](https://github.com/regent-developer/document/blob/master/LiteFlow/arch.svg)
 
 ## 使用
 
