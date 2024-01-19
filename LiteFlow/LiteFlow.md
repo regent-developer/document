@@ -122,31 +122,55 @@ liteflow.rule-source=config/flow.el.xml
   ```yaml
   liteflow:
     rule-source-ext-data-map:
-      url: jdbc:mysql://localhost:3306/xxx # LiteFlow从v2.10.6开始支持了使用项目中已存在的Datasource来进行数据库连接
-      driverClassName: com.mysql.cj.jdbc.Driver # LiteFlow从v2.10.6开始支持了使用项目中已存在的Datasource来进行数据库连接
-      username: root # LiteFlow从v2.10.6开始支持了使用项目中已存在的Datasource来进行数据库连接
-      password: 123456 # LiteFlow从v2.10.6开始支持了使用项目中已存在的Datasource来进行数据库连接
+      # LiteFlow从v2.10.6开始支持了使用项目中已存在的Datasource来进行数据库连接
+      # jdbc的连接url
+      url: jdbc:mysql://localhost:3306/xxx 
+      # 驱动器类名
+      # LiteFlow从v2.10.6开始支持了使用项目中已存在的Datasource来进行数据库连接
+      driverClassName: com.mysql.cj.jdbc.Driver 
+      # 数据库用户名
+      # LiteFlow从v2.10.6开始支持了使用项目中已存在的Datasource来进行数据库连接
+      username: root 
+      # 数据库密码
+      # LiteFlow从v2.10.6开始支持了使用项目中已存在的Datasource来进行数据库连接
+      password: 123456 
+      # 你的应用名称
       applicationName: demo
       #是否开启SQL日志
       sqlLogEnabled: true
       #是否开启SQL数据轮询自动刷新机制 默认不开启
       pollingEnabled: true
+      # SQL数据轮询时间间隔(s) 默认为60s
       pollingIntervalSeconds: 60
+      # 规则配置后首次轮询的起始时间(s) 默认为60s
       pollingStartSeconds: 60
-      #以下是chain表的配置，这个一定得有
+      #以下是chain表的配置
+      # 编排规则表的表名
       chainTableName: chain
+      # 编排规则表中应用名称存储字段名
       chainApplicationNameField: application_name
+      # 规则名称存储的字段名
       chainNameField: chain_name
+      # EL表达式的字段(只存EL)
       elDataField: el_data
+      此chain是否生效，此字段最好在mysql中定义成tinyInt类型
       chainEnableField: enable
       #以下是script表的配置，如果你没使用到脚本，下面可以不配置
+      # 你的脚本存储表的表名
       scriptTableName: script
+      # 脚本组件的Id的字段名
       scriptApplicationNameField: application_name
+      # 脚本组件名称的字段名
       scriptIdField: script_id
+      # 脚本组件名称的字段名
       scriptNameField: script_name
+      # 脚本数据的字段名
       scriptDataField: script_data
+      # 脚本类型的字段名
       scriptTypeField: script_type
+      # 脚本语言类型（groovy | qlexpress | js | python | lua | aviator | java）
       scriptLanguageField: script_language
+      # 此脚本是否生效，此字段最好在mysql中定义成tinyInt类型
       scriptEnableField: enable
   
   ```
