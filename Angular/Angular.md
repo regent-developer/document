@@ -33,3 +33,48 @@ ng new my-app
 ng serve --open
 ```
 
+* 创建组件
+
+```shell
+ng generate component <component-name>
+```
+
+>  生成以该组件命名的文件夹
+>  组件文件 `<component-name>.component.ts`
+>  模板文件 `<component-name>.component.html`
+>  CSS 文件，`<component-name>.component.css`
+>  测试文件 `<component-name>.component.spec.ts`
+
+
+
+> `手动方式创建组件`
+>
+> * 创建组件文件 `<component-name>.component.ts`
+>
+>   ```typescript
+>   import { Component } from '@angular/core';
+>   @Component({
+>       // CSS选择器
+>       selector: 'app-component-overview',
+>       //  HTML模板
+>       templateUrl: './component-overview.component.html',
+>       // 样式
+>       styleUrls: ['./component-overview.component.css']
+>   })
+>   
+>   export class ComponentOverviewComponent {
+>   
+>   }
+>   
+>   ```
+>
+>   
+>
+> * 
+
+
+
+
+
+
+
