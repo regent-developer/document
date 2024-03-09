@@ -3590,3 +3590,6 @@ Plan 9 是 Plan 9 from Bell Labs 的简称，即贝尔实验室 9 号项目。�
 
 ## Emacs
 1976 年，Emacs 诞生。Emacs 是一个文本编辑器家族，具有强大的可扩展性，初始版本由戴维·穆恩和盖伊·史提尔开发。Emacs 演化出了众多分支，其中使用最广泛的是 GNU Emacs 和 XEmacs。在 Unix 文化中，黑客主要使用 Emacs 和 vi/Vim 两种编辑器。
+
+## AlphaGo 大战李世乭
+2016 年 3 月 9 日，AlphaGo 大战李世乭拉开序幕。9 日至 15 日，在韩国首尔举行的人机围棋比赛中，谷歌旗下 DeepMind 开发的人工智能围棋软件 AlphaGo 最终以 4 ：1 战胜世界围棋冠军、职业九段选手李世乭。
