@@ -3629,3 +3629,6 @@ Plan 9 是 Plan 9 from Bell Labs 的简称，即贝尔实验室 9 号项目。�
 
 ## 微处理器 Pentium
 1993 年 3 月 22 日，微处理器 Pentium 开始出货。Pentium 是英特尔新一代 x86 处理器品牌，在国内被翻译为“奔腾”。Pentium 在性能以及商业上均大获成功，开启了英特尔的黄金时代。此后，英特尔还推出了“赛扬”（Celeron）、“至强”（Xeon）以及“酷睿”（Core）系列。
+
+## PRMan
+2015 年 3 月 23 日，PRMan 非商业版发布。PRMan，即 PhotoRealistic RenderMan，是皮克斯著名的渲染工具，用于影视效果制作的三维渲染。由于 RenderMan 的商标归皮克斯所有，人们经常把 PRMan 等同于 RenderMan，实际上 RenderMan 还代表渲染器规范。
