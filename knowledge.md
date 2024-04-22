@@ -3716,3 +3716,6 @@ Plan 9 是 Plan 9 from Bell Labs 的简称，即贝尔实验室 9 号项目。�
 
 ## 旋风计算机问世
 1951 年 4 月，旋风计算机问世。旋风计算机（Whirlwind）是一款早期电子计算机，由 MIT 伺服机构实验室研制，引入了当时先进的实时处理理念，并首次采用显示器作为输出设备，拥有世界第一款成熟的操作系统。
+
+## FFT 算法开始普及
+1965 年 4 月，FFT 算法开始普及。詹姆斯·库利和约翰·图基发表“An Algorithm for the Machine Calculation of Complex Fourier Series”论文，其中的算法被称为库利-图基算法——一种最常见的 FFT 算法。自此，FFT 算法迅速普及。
