@@ -3737,3 +3737,6 @@ Plan 9 是 Plan 9 from Bell Labs 的简称，即贝尔实验室 9 号项目。�
 
 ## iTunes Music Store 开放
 2003 年 4 月 28 日，iTunes Music Store 开放。iTunes Music Store 开放首周卖出 100 万首歌曲，5 年后成为美国最受欢迎的音乐销售商，又过了不到 2 年就成为全世界最受欢迎的音乐商店。iTunes Music Store 后更名为 iTunes Store，是一个综合性数字媒体网络商店。
+
+## Visual Studio Code
+2015 年 4 月 29 日，Visual Studio Code 预览版发布。Visual Studio Code简称 VS Code，是一个开源代码编辑器，由微软开发，同时支持 Windows、Linux 和 macOS 等操作系统。它支持测试，并内置了 Git 版本控制功能，同时也具有开发环境功能。
