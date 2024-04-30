@@ -3740,3 +3740,6 @@ Plan 9 是 Plan 9 from Bell Labs 的简称，即贝尔实验室 9 号项目。�
 
 ## Visual Studio Code
 2015 年 4 月 29 日，Visual Studio Code 预览版发布。Visual Studio Code简称 VS Code，是一个开源代码编辑器，由微软开发，同时支持 Windows、Linux 和 macOS 等操作系统。它支持测试，并内置了 Git 版本控制功能，同时也具有开发环境功能。
+
+## 万维网对所有人免费开放
+1993 年 4 月 30 日，万维网对所有人免费开放。CERN 的管理层本来希望为万维网申请专利，而伯纳斯－李反对这种做法，他希望万维网是免费开放和共享的，人人都可以参与其中。
