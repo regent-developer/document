@@ -3749,3 +3749,6 @@ Plan 9 是 Plan 9 from Bell Labs 的简称，即贝尔实验室 9 号项目。�
 
 ## vi/Vim
 vi/Vim 的上下左右移动键，不知道你想过没有，vi/Vim 为何使用 HJKL 作为光标的上下左右移动键呢？据说，比尔·乔伊创造 vi 时所用的设备是 ADM 3A，那时候还没有单独的方向键，而这个终端的 HJKL 键分别可以进行左下上右方向的操作。
+
+## EDSAC 正式运行
+1949 年 5 月 6 日，EDSAC 正式运行。EDSAC（Electronic Delay Storage Auto-matic Calculator，电子延迟存储自动计算器）是世界上第一台实际运行的存储程序计算机。英国剑桥大学数学实验室的莫里斯·威尔克斯及团队，受冯·诺伊曼的《EDVAC 报告书的第一份草案》启发。
