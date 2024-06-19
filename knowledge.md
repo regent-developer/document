@@ -3876,3 +3876,6 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 
 ## Libra 白皮书
 2019 年 6 月 18 日，Facebook 发布 Libra 白皮书。Libra 是一种由 Facebook 提出的“加密货币”，意在建立一套简单的、无国界的虚拟货币。其核心特色是，以区块链技术为基础，以资产储备作为后盾，由 Libra 创始成员进行管理。
+
+## Keyboard not found
+"Keyboard not found, Press F1 to Resume20 世纪 80 年代中期，在开机检测没有找到键盘的情况下，AMI 公司的 BIOS 系统会给出 Keyboard not found, Press F1 to Resume 的错误提示，后来它成为愚蠢设计的经典案例。"
