@@ -3879,3 +3879,6 @@ Scratch 是一款适合青少年学习的模块化编程环境，由米切尔·�
 
 ## Keyboard not found
 "Keyboard not found, Press F1 to Resume20 世纪 80 年代中期，在开机检测没有找到键盘的情况下，AMI 公司的 BIOS 系统会给出 Keyboard not found, Press F1 to Resume 的错误提示，后来它成为愚蠢设计的经典案例。"
+
+## 通用顶级域名注册限制放开
+2011 年6月 20 日，通用顶级域名注册限制放开。通用顶级域名在 1985 年1月创立，当时共有6个通用顶级域名：.com-供商业机构使用、.edu-供教育机构使用、.gov-供政府及下属机构使用、.mil-供军事机构使用、.net-供网络服务供应商使用、.org-供不属于前四个类别的组织使用。
