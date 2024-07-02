@@ -3915,3 +3915,6 @@ Alan Turing（1912-06-23—1954-06-07）1912 年 6 月 23 日，阿兰·图灵�
 
 ## Walkman
 1979 年 7 月 1 日，索尼推出 Walkman。Walkman 由索尼的记者用小型录音机 Pressman 改造而来，特色就是便携、音质好，由井深大和盛田昭夫主导研发。Walkman定位青少年人群，强调年轻与时尚，中文“随身听”一词就专指 Walkman。
+
+## PARC
+1970 年 7 月，施乐 PARC 成立。PARC（Palo Alto Research Center）即帕罗奥多研究中心，曾是施乐公司最重要的研究机构。PARC 是许多现代计算机技 术的诞生地：个人计算机 Xerox Alto、激光打印机、鼠标、以太网、图形用户界面、编程语言 Smalltalk...
