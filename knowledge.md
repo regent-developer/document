@@ -3969,3 +3969,6 @@ QWERTY 是现如今广泛使用的计算机键盘布局。这种键盘布局最�
 
 ## Project Kotlin
 "2011 年 7 月 19 日，Project Kotlin 公开亮相。Kotlin 是一种在 Java 虚拟机上运行的静态类型编程语言，可以被编译成 JavaScript 源代码。Kotlin 受到 Java、C#、JavaScript、Scala、Groovy 等语言的影响，致力于成为 Android 开发的下一代编程语言。"
+
+## “阿波罗 11 号”成功登月
+"1969 年 7 月 20 日，“阿波罗 11 号”飞船成功登月。阿波罗登月是人类的伟大壮举之一。在登月 50 周年之际，《华尔街日报》的一篇文章将人类登月称为“计算机的胜利”。“阿波罗 11 号”飞船在月球的着陆过程由阿波罗导航计算机 AGC（Apollo Guidance Computer）控制。"
