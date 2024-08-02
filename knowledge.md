@@ -4011,3 +4011,6 @@ QWERTY 是现如今广泛使用的计算机键盘布局。这种键盘布局最�
 
 ## Friend-to-Friend
 "2002 年 8 月，丹·布兰克林提出 Friend-to-Friend 网络。Friend-to-Friend 是一种 P2P 网络，用户只能和自己认识的人建立直接连接。与其他类型的私人 P2P 不同，除了自己的朋友圈外，Friend-to-Friend 网络中的用户无法知道其他参与人。"
+
+## ImageNet项目
+"2007 年，李飞飞等启动 ImageNet 项目。ImageNet 是图像处理领域最有名的数据集之一，这个项目已经人工标记了 1400 多万张图片。基于 ImageNet 数据集进行的 ILSVRC（ImageNet 大规模视觉识别挑战赛）相当于计算机视觉领域的权威评测，从 2010 年起举办了 7 年。"
