@@ -26,6 +26,7 @@
 |  3.2   | 2021年08月05日 | Quintessential Quintuplets |   五等分的新娘   |
 |  3.3   | 2023年05月11日 |      Rurouni Kenshin       |     浪客剑心     |
 |  3.4   | 2023年12月28日 |         Slam Dunk          |     灌篮高手     |
+|  3.5   | 2024年09月01日 | Tengen Toppa Gurren Lagann |     天元突破红莲螺岩     |
 
 
 
