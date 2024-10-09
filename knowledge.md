@@ -4195,3 +4195,6 @@ https://idp.bl.uk/
 
 ## 反向传播算法
 1986 年 10 月 8 日，反向传播算法经典论文发表。鲁梅尔哈特、辛顿和威廉姆斯在《自然》杂志发表“Learning Representations by Back-propagating Errors”，介绍了反向传播算法用于训练神经网络的突出效果。直到这篇论文，人们才真正认识到它的重要性。
+
+## TypeScript
+2012 年 10 月，微软首次发布公开版 TypeScript 0.8。TypeScript 是由微软主导开发的开源编程语言，为开发大型应用而设计。它是JavaScript ES6 的一个严格超集，以可选的方式提供了静态类型支持和基于类的面向对象编程特性。
