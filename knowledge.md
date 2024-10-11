@@ -4201,3 +4201,6 @@ https://idp.bl.uk/
 
 ## Dart 预览版
 2011 年 10 月 10 日，谷歌推出 Dart 预览版。Dart 由谷歌的拉尔斯·巴克主持开发，目标是成为下一代结构化Web开发语言。跟JavaScript一样，Dart也是一种面向对象编程语言，但采用基于类的编程，它只允许单一继承，语法风格接近 C 语言。
+
+## BERT 模型
+2018 年 10 月 11 日，谷歌 AI 团队发布开源 BERT 模型。BERT 的全称是 Bidirectional Encoder Representation fromTransformers（基于 Transformer 的双向编码器表征），被认为是当前最强的 NLP 预训练模型。BERT 在机器阅读理解顶级测试 SQuAD1.1 中表现惊人。
