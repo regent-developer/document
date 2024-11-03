@@ -4270,3 +4270,6 @@ BNF（Backus-Naur Form，巴科斯－诺尔范式）是一种上下文无关语�
 
 ## Multics 项目启动
 1964 年 11 月，Multics项目启动。MIT、贝尔实验室及通用电气开始共同研发Multics（Multiplexed Information and Computing System，多任务信息与计算系统）。Multics 基于兼容分时系统设计，首次进行了多用户、多任务操作系统方向的尝试，是现代主流操作系统的鼻祖。
+
+## Unix 发布
+1971 年 11 月 3 日，第一个版本的Unix 发布。Unix 是一个多任务、多用户的计算机操作系统家族，前身为1964 年启动的 Multics。由于项目缓慢，1969年贝尔实验室退出，后来参与项目的肯·汤普森、丹尼斯·里奇等人开始自研 Unix。Unix直接影响了如今流行的所有操作系统。
