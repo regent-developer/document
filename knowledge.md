@@ -4318,3 +4318,6 @@ BNF（Backus-Naur Form，巴科斯－诺尔范式）是一种上下文无关语�
 
 ## 《我的世界》发布
 2011 年 11 月 18 日，《我的世界》发布。《我的世界》（Minecraft）是一款生存类沙盒游戏，最初由游戏设计师 Notch 单独开发，后由 Notch 及另外两人成立的游戏公司 Mojang 继续开发并发行。
+
+## 微软首次发布 Microsoft Office
+1990 年 11 月 19 日，微软首次发布 Microsoft Office。这一天，微软发布了 Windows 版本的 Microsoft Office，其中包含了文档处理工具 Word、表格处理工具 Excel，以及演示文档工具 PowerPoint，被后人合称“办公三件套”。
