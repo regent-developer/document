@@ -24,6 +24,28 @@ org.apache.jasper.JasperException: /index.jsp (line: 1, column: 1) The page cann
 <jsp:include flush="true" page="footer.jsp" />
 ```
 
+4. 修改web.xml
+```xml
+<init-param>
+<param-name>mappedfile</param-name>
+<param-value>false</param-value>
+</init-param>
+```
+
+5. 删除jsp页面中得标签导入，在web.xml中添加标签导入
+```xml
+<jsp-config>
+  <taglib>
+   <taglib-uri>http://java.sun.com/jstl/core</taglib-uri>
+   <taglib-location>/WEB-INF/tld/c.tld</taglib-location>
+  </taglib>
+  <taglib>
+   <taglib-uri>http://java.sun.com/jstl/fmt</taglib-uri>
+   <taglib-location>/WEB-INF/tld/fmt.tld</taglib-location>
+  </taglib>
+ </jsp-config>
+```
+
 ## 扩展知识
 <%@ include file=" "%>标签是在jsp容器里将jsp翻译成servlet文件，并编译它时，是静态包含jsp的，也就是编译出来是一个类文件，而java类文件是不允许超过65K这么大的，所以会报错如标题所示。而<jsp:include flush="true" page=" "/>在翻译并编译后，产生的两个类文件，也就是说呗调用的jsp文件生成独立的类文件，而调用它的jsp生成的类文件中，只包含一个调用jsp的方法。
 
