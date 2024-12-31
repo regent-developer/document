@@ -263,6 +263,32 @@ ArkTS会对自定义组件的成员变量使用的访问限定符private/public/
 4. 由于struct没有继承能力，上述所有的这些变量使用protected修饰时，会有编译告警日志提示。
 5. 当@Require和private同时修饰自定义组件struct的@State/@Prop/@Provide/@BuilderParam/常规成员变量(不涉及更新的普通变量)时，会有编译告警日志提示。
 
+#### @Builder装饰器：自定义构建函数
+@Builder装饰器用于定义自定义构建函数，自定义构建函数允许在自定义组件内、build方法和其他自定义构建函数中调用。
+
+1. 私有自定义构建函数
+* 定义
+  ```ts
+  @Builder MyBuilderFunction() {}
+  ```
+* 使用
+  ```ts
+  this.MyBuilderFunction()
+  ```
+  1. 允许在自定义组件内定义一个或多个@Builder方法，该方法被认为是该组件的私有、特殊类型的成员函数。
+  2. 私有自定义构建函数允许在自定义组件内、build方法和其他自定义构建函数中调用。
+  3. 在自定义函数体中，this指代当前所属组件，组件的状态变量可以在自定义构建函数内访问。建议通过this访问自定义组件的状态变量而不是参数传递。
+   
+2. 全局自定义构建函数
+ * 定义
+  ```ts
+  @Builder function MyGlobalBuilderFunction() { ... }
+  ```
+ * 使用
+  ```ts
+  MyGlobalBuilderFunction()
+  ```
+
 ## 状态管理
 
 ## 渲染控制
