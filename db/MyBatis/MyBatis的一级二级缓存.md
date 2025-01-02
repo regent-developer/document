@@ -1,4 +1,4 @@
-# MyBatis的一级二级缓存
+# MyBatis的一二级缓存
 
 ## 一级缓存（Local Cache）
 
