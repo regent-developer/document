@@ -310,7 +310,37 @@ ArkTS会对自定义组件的成员变量使用的访问限定符private/public/
 4. 使用全局和局部的@Builder传入customBuilder类型
 5. 多层@Builder方法嵌套使用
 6. @Builder函数联合V2装饰器使用
-7. 
+  
+
+#### @LocalBuilder装饰器： 维持组件父子关系
+为了解决组件的父子关系和状态管理的父子关系保持一致的问题，引入@LocalBuilder装饰器。@LocalBuilder拥有和局部@Builder相同的功能，且比局部@Builder能够更好的确定组件的父子关系和状态管理的父子关系。
+
+1. 定义的语法
+   ```ts
+   @LocalBuilder MyBuilderFunction() { ... }
+   ```
+2. 使用方法
+   ```ts
+   this.MyBuilderFunction()
+   ```
+
+##### 限制条件
+* @LocalBuilder只能在所属组件内声明，不允许全局声明。
+* @LocalBuilder不能被内置装饰器和自定义装饰器使用。
+* 自定义组件内的静态方法不能和@LocalBuilder一起使用。
+
+##### @LocalBuilder和局部@Builder使用区别
+@Builder方法引用传参时，为了改变this指向，使用bind(this)后，会导致组件的父子关系和状态管理的父子关系不一致，但是@LocalBuilder是否使用bind(this)，都不会改变组件的父子关系。
+
+##### 参数传递规则
+1. 按引用传递参数
+   * 按引用传递参数时，传递的参数可为状态变量，且状态变量的改变会引起@LocalBuilder方法内的UI刷新。
+   * 若子组件调用父组件的@LocalBuilder函数，传入的参数发生变化，不会引起@LocalBuilder方法内的UI刷新。
+   * 按引用传递参数时，如果在@LocalBuilder方法内调用自定义组件，ArkUI提供$$作为按引用传递参数的范式。
+   * 子组件引用父组件的@LocalBuilder函数，传入的参数为状态变量，状态变量的改变不会引发@LocalBuilder方法内的UI刷新，原因是@Localbuilder装饰的函数绑定在父组件上，状态变量刷新机制是刷新本组件以及其子组件，对父组件无影响，故无法引发刷新。若使用@Builder修饰则可引发刷新，原因是@Builder改变了函数的this指向，此时函数被绑定到子组件上，故能引发UI刷新。
+2. 按值传递参数
+
+
 
 ## 状态管理
 
