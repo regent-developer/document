@@ -339,8 +339,12 @@ ArkTS会对自定义组件的成员变量使用的访问限定符private/public/
    * 按引用传递参数时，如果在@LocalBuilder方法内调用自定义组件，ArkUI提供$$作为按引用传递参数的范式。
    * 子组件引用父组件的@LocalBuilder函数，传入的参数为状态变量，状态变量的改变不会引发@LocalBuilder方法内的UI刷新，原因是@Localbuilder装饰的函数绑定在父组件上，状态变量刷新机制是刷新本组件以及其子组件，对父组件无影响，故无法引发刷新。若使用@Builder修饰则可引发刷新，原因是@Builder改变了函数的this指向，此时函数被绑定到子组件上，故能引发UI刷新。
 2. 按值传递参数
+   * 调用@LocalBuilder装饰的函数默认按值传递。当传递的参数为状态变量时，状态变量的改变不会引起@LocalBuilder方法内的UI刷新。所以当使用状态变量的时候，推荐使用按引用传递。
+   * 
 
-
+##### 使用场景
+1. @LocalBuilder在@ComponentV2修饰的自定义组件中使用
+   * 使用局部的@LocalBuilder在@ComponentV2修饰的自定义组件中调用，修改变量触发UI刷新
 
 ## 状态管理
 
