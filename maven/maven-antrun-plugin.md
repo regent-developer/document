@@ -28,6 +28,12 @@
 
 ```
 
+* 删除文件夹
+  ```xml
+  <delete dir="${project.basedir}/dist/"/>
+
+  ```
+
 * 拷贝文件
   ```xml
   <copy todir="${project.build.directory}" overwrite="true">
