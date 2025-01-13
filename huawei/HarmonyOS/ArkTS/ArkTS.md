@@ -346,6 +346,67 @@ ArkTS会对自定义组件的成员变量使用的访问限定符private/public/
 1. @LocalBuilder在@ComponentV2修饰的自定义组件中使用
    * 使用局部的@LocalBuilder在@ComponentV2修饰的自定义组件中调用，修改变量触发UI刷新
 
+#### @BuilderParam装饰器：引用@Builder函数
+@BuilderParam用来装饰指向@Builder方法的变量（@BuilderParam是用来承接@Builder函数的）。开发者可以在初始化自定义组件时，使用不同的方式（如：参数修改、尾随闭包、借用箭头函数等）对@BuilderParam装饰的自定义构建函数进行传参赋值，在自定义组件内部通过调用@BuilderParam为组件增加特定的功能。该装饰器用于声明任意UI描述的一个元素，类似slot占位符。
+
+1. 初始化@BuilderParam装饰的方法
+@BuilderParam装饰的方法只能被自定义构建函数（@Builder装饰的方法）初始化。
+   * 使用所属自定义组件的自定义构建函数或者全局的自定义构建函数，在本地初始化@BuilderParam。
+   ```ts
+    @Builder function overBuilder() {}
+
+    @Component
+    struct Child {
+      @Builder doNothingBuilder() {};
+
+      // 使用自定义组件的自定义构建函数初始化@BuilderParam
+      @BuilderParam customBuilderParam: () => void = this.doNothingBuilder;
+      // 使用全局自定义构建函数初始化@BuilderParam
+      @BuilderParam customOverBuilderParam: () => void = overBuilder;
+      build(){}
+    }
+   ```
+   * 用父组件自定义构建函数初始化子组件@BuilderParam装饰的方法。
+   ```ts
+    @Component
+    struct Child {
+      @Builder customBuilder() {};
+      // 使用父组件@Builder装饰的方法初始化子组件@BuilderParam（默认使用本组件的@Builder装饰的方法）
+      @BuilderParam customBuilderParam: () => void = this.customBuilder;
+
+      build() {
+        Column() {
+          this.customBuilderParam()
+        }
+      }
+    }
+
+    @Entry
+    @Component
+    struct Parent {
+      @Builder componentBuilder() {
+        Text(`Parent builder `)
+      }
+
+      build() {
+        Column() {
+          Child({ customBuilderParam: this.componentBuilder })
+        }
+      }
+    }
+   ```
+##### 限制条件
+* @BuilderParam装饰的变量接收来自父组件使用@Builder装饰的函数，且@Builder函数是参数传递类型，仅支持局部@Builder函数作为参数传递。
+* 在自定义组件尾随闭包的场景下，子组件有且仅有一个@BuilderParam用来接收此尾随闭包，且此@BuilderParam不能有参数。
+
+##### 使用场景
+1. 参数初始化组件:@BuilderParam装饰的方法可以是有参数和无参数的两种形式，需与指向的@Builder方法类型匹配。
+2. 尾随闭包初始化组件:在自定义组件中使用@BuilderParam装饰的属性时也可通过尾随闭包进行初始化。在初始化自定义组件时，组件后紧跟一个大括号“{}”形成尾随闭包场景。
+3. 使用全局和局部@Builder初始化@BuilderParam。
+4. 在@ComponentV2修饰的自定义组件中使用@BuilderParam
+  
+
+
 ## 状态管理
 
 ## 渲染控制
