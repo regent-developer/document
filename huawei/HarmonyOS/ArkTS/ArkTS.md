@@ -406,6 +406,31 @@ ArkTS会对自定义组件的成员变量使用的访问限定符private/public/
 4. 在@ComponentV2修饰的自定义组件中使用@BuilderParam
   
 
+#### wrapBuilder：封装全局@Builder
+使用wrapBuilder来封装全局@Builder。
+
+##### 接口说明
+```ts
+declare function wrapBuilder< Args extends Object[]>(builder: (...args: Args) => void): WrappedBuilder;
+
+// 使用方法
+let builderVar: WrappedBuilder<[string, number]> = wrapBuilder(MyBuilder)
+let builderArr: WrappedBuilder<[string, number]>[] = [wrapBuilder(MyBuilder)] //可以放入数组
+```
+
+##### 限制条件
+1. wrapBuilder方法只能传入全局@Builder方法。
+2. wrapBuilder方法返回的WrappedBuilder对象的builder属性方法只能在struct内部使用。
+
+##### 使用场景
+1. @Builder方法赋值给变量
+   * 把@Builder装饰器装饰的方法MyBuilder作为wrapBuilder的参数，再将wrapBuilder赋值给变量globalBuilder，用来解决@Builder方法赋值给变量后无法被使用的问题。
+2. @Builder方法赋值给变量在UI语法中使用
+   * 自定义组件Index使用ForEach来进行不同@Builder函数的渲染，可以使用builderArr声明的wrapBuilder数组进行不同@Builder函数效果体现。
+
+##### 引用传递
+通过按引用传递的方式传入参数，会触发UI的刷新。
+
 
 ## 状态管理
 
