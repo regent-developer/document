@@ -431,6 +431,32 @@ let builderArr: WrappedBuilder<[string, number]>[] = [wrapBuilder(MyBuilder)] //
 ##### 引用传递
 通过按引用传递的方式传入参数，会触发UI的刷新。
 
+#### @Styles装饰器：定义组件重用样式
+@Styles装饰器可以将多条样式设置提炼成一个方法，直接在组件声明的位置调用。通过@Styles装饰器可以快速定义并复用自定义样式。
+
+##### 装饰器使用说明
+1. 当前@Styles仅支持通用属性和通用事件。
+2. @Styles可以定义在组件内或全局，在全局定义时需在方法名前面添加function关键字，组件内定义时则不需要添加function关键字。
+   
+```ts
+// 全局
+@Styles function functionName() { ... }
+
+// 在组件内
+@Component
+struct FancyUse {
+  @Styles fancy() {
+    .height(100)
+  }
+}
+```
+3. 定义在组件内的@Styles可以通过this访问组件的常量和状态变量，并可以在@Styles里通过事件来改变状态变量的值
+4. 组件内@Styles的优先级高于全局@Styles。
+
+##### 限制条件
+1. 不支持在@Styles方法内使用逻辑组件，在逻辑组件内的属性不生效。
+2. @Styles方法不能有参数，编译期会报错，提醒开发者@Styles方法不支持参数。
+
 
 ## 状态管理
 
