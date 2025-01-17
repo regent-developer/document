@@ -474,6 +474,21 @@ struct FancyUse {
 ##### 限制条件
 1. 和@Styles不同，@Extend仅支持在全局定义，不支持在组件内部定义。
 
+#### stateStyles：多态样式
+@Styles仅仅应用于静态页面的样式复用，stateStyles可以依据组件的内部状态的不同，快速设置不同样式。
+
+stateStyles是属性方法，可以根据UI内部状态来设置样式，类似于css伪类，但语法不同。
+* focused：获焦态。
+* normal：正常态。
+* pressed：按压态。
+* disabled：不可用态。
+* selected：选中态。
+
+##### 使用场景
+1. 基础场景
+2. @Styles和stateStyles联合使用
+3. 在stateStyles里使用常规变量和状态变量
+
 ## 状态管理
 
 ## 渲染控制
