@@ -457,6 +457,55 @@ struct FancyUse {
 1. 不支持在@Styles方法内使用逻辑组件，在逻辑组件内的属性不生效。
 2. @Styles方法不能有参数，编译期会报错，提醒开发者@Styles方法不支持参数。
 
+#### @Extend装饰器：定义扩展组件样式
+用于扩展原生组件样式。
+
+##### 装饰器使用说明
+1. 语法
+```ts
+@Extend(UIComponentName) function functionName { ... }
+```
+2. 使用规则
+* 和@Styles不同，@Extend支持封装指定组件的私有属性、私有事件和自身定义的全局方法。
+* 和@Styles不同，@Extend装饰的方法支持参数，开发者可以在调用时传递参数，调用遵循TS方法传值调用。
+* @Extend装饰的方法的参数可以为function，作为Event事件的句柄。
+* @Extend的参数可以为状态变量，当状态变量改变时，UI可以正常的被刷新渲染。
+
+##### 限制条件
+1. 和@Styles不同，@Extend仅支持在全局定义，不支持在组件内部定义。
+
+#### stateStyles：多态样式
+@Styles仅仅应用于静态页面的样式复用，stateStyles可以依据组件的内部状态的不同，快速设置不同样式。
+
+stateStyles是属性方法，可以根据UI内部状态来设置样式，类似于css伪类，但语法不同。
+* focused：获焦态。
+* normal：正常态。
+* pressed：按压态。
+* disabled：不可用态。
+* selected：选中态。
+
+##### 使用场景
+1. 基础场景
+2. @Styles和stateStyles联合使用
+3. 在stateStyles里使用常规变量和状态变量
+
+#### @AnimatableExtend装饰器：定义可动画属性
+@AnimatableExtend装饰器用于自定义可动画的属性方法，在这个属性方法中修改组件不可动画的属性。在动画执行过程时，通过逐帧回调函数修改不可动画属性值，让不可动画属性也能实现动画效果。也可通过逐帧回调函数修改可动画属性的值，实现逐帧布局的效果。
+
+* 可动画属性：如果一个属性方法在animation属性前调用，改变这个属性的值可以使animation属性的动画效果生效，这个属性称为可动画属性。比如height、width、backgroundColor、translate属性，和Text组件的fontSize属性等。
+* 不可动画属性：如果一个属性方法在animation属性前调用，改变这个属性的值不能使animation属性的动画效果生效，这个属性称为不可动画属性。比如Polyline组件的points属性等。
+
+##### 装饰器使用说明
+1. 语法
+```ts
+@AnimatableExtend(UIComponentName) function functionName(value: typeName) { 
+  .propertyName(value)
+}
+```
+* @AnimatableExtend仅支持定义在全局，不支持在组件内部定义。
+* @AnimatableExtend定义的函数参数类型必须为number类型或者实现 AnimatableArithmetic<T>接口的自定义类型。
+* @AnimatableExtend定义的函数体内只能调用@AnimatableExtend括号内组件的属性方法。
+
 
 ## 状态管理
 
