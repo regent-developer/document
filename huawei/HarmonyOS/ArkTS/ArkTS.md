@@ -457,6 +457,22 @@ struct FancyUse {
 1. 不支持在@Styles方法内使用逻辑组件，在逻辑组件内的属性不生效。
 2. @Styles方法不能有参数，编译期会报错，提醒开发者@Styles方法不支持参数。
 
+#### @Extend装饰器：定义扩展组件样式
+用于扩展原生组件样式。
+
+##### 装饰器使用说明
+1. 语法
+```ts
+@Extend(UIComponentName) function functionName { ... }
+```
+2. 使用规则
+* 和@Styles不同，@Extend支持封装指定组件的私有属性、私有事件和自身定义的全局方法。
+* 和@Styles不同，@Extend装饰的方法支持参数，开发者可以在调用时传递参数，调用遵循TS方法传值调用。
+* @Extend装饰的方法的参数可以为function，作为Event事件的句柄。
+* @Extend的参数可以为状态变量，当状态变量改变时，UI可以正常的被刷新渲染。
+
+##### 限制条件
+1. 和@Styles不同，@Extend仅支持在全局定义，不支持在组件内部定义。
 
 ## 状态管理
 
