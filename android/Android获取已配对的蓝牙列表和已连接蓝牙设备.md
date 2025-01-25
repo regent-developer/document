@@ -1,4 +1,4 @@
-# android获取已配对的蓝牙列表和已连接蓝牙设备
+# Android获取已配对的蓝牙列表和已连接蓝牙设备
 
 ```java
 private void getPairBLEAndConnectBLE() {
