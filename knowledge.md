@@ -4530,3 +4530,6 @@ World!","Hello, World!大概是全世界最流行的代码，许多初学者运�
 
 ## Objective-C
 1984 年，Objective-C 首次出现。Objective-C 是面向对象的通用、高级编程语言。它扩展了标准的 ANSI C，将 Smalltalk 式消息传递机制加入 ANSI C。Objective-C 由布莱德·考克斯和汤姆·洛夫设计。1986 年 1月，考克斯出版了一本书，完整描述了 Objective-C 的设计理念。
+
+## 《密码学杂志》
+1991 年 1 月，差分密码分析相关论文发布。埃利·比哈姆和阿迪·萨莫尔在《密码学杂志》上发表经典论文“ Differential cryptanalysis of DES-like cryptosystems”，阐述了差分密码分析。这种密码分析方法主要用于破解分组加密，也适用于流加密和哈希函数加密。
