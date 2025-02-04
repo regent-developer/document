@@ -35,4 +35,6 @@
   **如果Microsoft Store无法下载的话，可以在[ubuntu2204](https://wslstorestorage.blob.core.windows.net/wslblob/UbuntuUbuntu2204-221101.AppxBundle)下载，并双击运行**
 
 
+参考：https://learn.microsoft.com/en-us/windows/wsl/install-manual
+
 
