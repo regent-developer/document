@@ -4623,3 +4623,6 @@ Plan 9 是 Plan 9 from Bell Labs 的简称，即贝尔实验室 9 号项目。�
 
 ## Emacs
 1976 年，Emacs 诞生。Emacs 是一个文本编辑器家族，具有强大的可扩展性，初始版本由戴维·穆恩和盖伊·史提尔开发。Emacs 演化出了众多分支，其中使用最广泛的是 GNU Emacs 和 XEmacs。在 Unix 文化中，黑客主要使用 Emacs 和 vi/Vim 两种编辑器。
+
+## Minix
+1987 年，Minix 首次发布。Minix 是 Mini Unix 的缩写，一个迷你版类 Unix 操作系统，初始版本由安德鲁·塔南鲍姆教授开发。开发初衷是方便教学使用，Minix 一开始向使用者收取极低的授权费，2000 年 4 月以 BSD 许可协议发布，成为免费开源软件。
