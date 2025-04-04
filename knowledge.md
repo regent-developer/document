@@ -4717,3 +4717,6 @@ AlphaGo 的进化速度非常之快，AlphaGo Lee（即跟李世乭对战的版�
 
 ## 亚马逊
 1995 年 4 月 3 日，亚马逊卖出第一本书。一位名叫约翰·温赖特的顾客，无意中从一家名为亚马逊的新建在线书店购买了一本侯世达的 Fluid Concepts and Creative Analogies ，人类线上购物新方式从此开启。
+
+## Netscape Communications
+1994 年 4 月 4 日，第一家真正意义上的互联网公司成立。马克·安德森和吉姆·克拉克创立 Mosaic 通信，后更名为网景通信（Netscape Communications），简称网景。网景开发了第一个被广泛使用的浏览器，与此同时，主导开发了如今市面上广受欢迎的编程语言 JavaScript。
