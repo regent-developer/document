@@ -61,6 +61,12 @@ stages:
   - test
   - deploy
 
+# 引入其他工程中的yml文件
+include:
+  - project: 'xxx/xxx'
+    ref: main
+    file: '.gitlab-ci.yml'
+
 # 在脚本执行前，先安装npm依赖
 before_script:
   - npm install
@@ -102,4 +108,18 @@ deploy:
   artifacts:
     paths:
       - dist//
+```
+
+
+xxx/xxx/.gitlab-ci.yml
+```yaml
+stages:          
+  - test
+
+test-job:       
+  stage: test
+  script:
+    - echo "Test the code..."
+    - echo "Test complete."
+
 ```
