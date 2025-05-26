@@ -4847,3 +4847,6 @@ AlphaGo 的进化速度非常之快，AlphaGo Lee（即跟李世乭对战的版�
 
 ## 新研究方向模型检测诞生
 1981 年 5 月，新研究方向模型检测诞生。克拉克和爱默生发表经典论文“Design and Synthesis of Synchronization Skeletons Using Branching-Time TemporalLogic”，开创模型检测研究新方向。模型检测（model checking）是一种自动验证技术。
+
+## GM 密码系统诞生
+1982 年 5 月，GM 密码系统诞生。戈德瓦塞尔和米卡利发表经典论文“Probabilistic Encryption & How To Play Mental Poker Keeping Secret All Partial Information”，提出 GM 密码系统（Goldwasser-Micali）。
