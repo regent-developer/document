@@ -1,0 +1,2 @@
+# Spring WebFlux
+Spring WebFlux 是 Spring Framework 5.0 中引入的全新响应式 Web 框架，旨在支持异步非阻塞的编程模型。与传统的 Spring MVC 基于阻塞式的 Servlet API 不同，WebFlux 基于 Reactive Streams 规范，利用 Reactor 项目，实现了完全异步和非阻塞的通信方式。它可以运行在 Netty、Undertow 以及支持 Servlet 3.1+ 的容器上，适用于构建高并发、低延迟的 Web 应用程序
