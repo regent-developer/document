@@ -1,6 +1,6 @@
 # Knowledge 
 
-## bash
+## bash 
 
 bash 是 Unix shell 的一种,在 1987 年由 Brian Fox 为了 GNU 计划而编写,并于 1989 年发布第一个正式版本。原本计划用在 GNU 操作系统上,但它也能运行于大多数类 Unix 系统的操作系统之上。Linux 与 Mac OSX v10.4 都将 bash 作为默认 shell。
 
