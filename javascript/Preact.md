@@ -1,0 +1,4 @@
+# Preact
+Preact是一个轻量级的JavaScript库，它提供了与React相似的API，但体积更小，性能更优。Preact的核心理念是尽可能地保持与React的兼容性，同时去除不必要的部分，使其成为一个理想的替代品，尤其是在对性能和包大小有严格要求的场景中。
+
+Preact由Jason Miller在2016年创建，其设计目标是提供一个与React API一致的框架，但体积更小，运行速度更快。Preact的核心库大小仅为3KB（gzip压缩后），而React的大小约为25KB（gzip压缩后）。尽管体积小，Preact仍然提供了React的大部分功能，包括虚拟DOM、组件化、状态管理和生命周期方法。
