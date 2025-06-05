@@ -1,4 +1,6 @@
 # docker-compose
+Docker Compose 是 Docker 平台中的一个关键组件，旨在简化多容器应用程序的生命周期管理。它构建在 Docker 的核心功能之上，为其提供额外的编排能力。
+
 
 ## 安装
 
