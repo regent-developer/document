@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">  <localRepository>D:\company\mvnResponsitory</localRepository>  <interactiveMode>true</interactiveMode> <offline>false</offline>  <pluginGroups> </pluginGroups>  <proxies> </proxies>
+<servers>  <server>  <id>company-respon</id>  <username>admin</username>  <password>admin123</password></server>
+  <server>  <id>maven-releases</id>  <username>admin</username>  <password>admin123</password></server>        <server>  <id>maven-snapshots</id>  <username>admin</username>  <password>admin123</password></server>  
+</servers><mirrors>   <mirror>      <id>maven-public</id>      <mirrorOf>*</mirrorOf>      <name>maven-public</name>      <url>http://192.168.1.102:8081/repository/maven-public/</url>    </mirror> </mirrors>
+ <profiles> <profile>    <id>snapshots</id>    <repositories>      <repository>        <id>snapshots</id>        <url>http://192.168.1.102:8081/repository/maven-snapshots/</url>        <releases>          <enabled>false</enabled>        </releases>        <snapshots>          <enabled>true</enabled>          <updatePolicy>always</updatePolicy>        </snapshots>      </repository>    </repositories>  </profile></profiles>
