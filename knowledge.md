@@ -4877,3 +4877,6 @@ AlphaGo 的进化速度非常之快，AlphaGo Lee（即跟李世乭对战的版�
 ## 菲利普·唐纳德·埃斯特里奇（ Philip Donald Estridge）
 菲利普·唐纳德·埃斯特里奇（ Philip Donald Estridge）出生于 1937 年 6 月 23 日，他通常被称为唐·埃斯特里奇（Don Estridge），是一位美国计算机工程师；埃斯特里奇领导了最初的 IBM 个人计算机的开发，因此被称为“IBM PC 之父””。他为 IBM 定制的商业策略极大地改变了计算机行业，导致个人计算机的销量大幅增长，从而形成了 IBM PC 硬件制造商的整个行业。
 
+## Google 地球上线
+2005 年 6 月 28 日，Google 地球上线。Google 地球是谷歌开发的虚拟地球仪软件，技术原型是约翰·汉克供职的 Intrinsic Graphics 开发的三维地球模型。后来汉克出来成立 Keyhole，开发了 Keyhole EarthViewer 软件，可以将卫星图和航拍图叠加到地球模型上。
+
