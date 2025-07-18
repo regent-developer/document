@@ -14,3 +14,6 @@ https://www.jenkins.io/
 * JUnit/Test NG 测试报告：以图表形式提供测试报告
 * 文件指纹信息：会保存哪次集成构建产生了哪些 jars 文件，哪次集成使用了哪个版本的 jars 文件等记录
 * 支持第三方插件
+
+### url
+https://mp.weixin.qq.com/s/5jF6VEWIVyVTvEfQhHH4mA
