@@ -1,4 +1,4 @@
-# dblink
+# dblink 
 database link（简称DBLINK）是定义一个数据库到另一个数据库的路径的对象，database link允许查询其他数据库的远程表及执行远程程序。
 
 database link是单向的连接。在创建database link的时候，Oracle在数据字典中保存相关的database link的信息。
