@@ -11,3 +11,6 @@ MCP（Model Context Protocol，模型上下文协议）由Anthropic于2024年底
   
   
 https://mp.weixin.qq.com/s/dzP43Yk9SvTeXTTg_8yNwg
+
+TS实现MCP服务
+https://mp.weixin.qq.com/s/4lCLHQL7xGf00CzqilEM5Q
