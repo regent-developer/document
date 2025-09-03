@@ -41,7 +41,7 @@ Jobs 表示构建工作，表示某个 Stage 里面执行的工作。可以在 S
 - `script`: 指定 CI/CD 任务的具体脚本。
 - `only`: 指定 CI/CD 任务只在特定条件下运行。
 - `except`: 指定 CI/CD 任务在特定条件下不运行。
-- `tags`: 指定 CI/CD 任务运行的标签。
+- `tags`: 指定 CI/CD 任务运行（runner）的标签。
 - `variables`: 指定 CI/CD 任务的环境变量。
 - `cache`: 指定 CI/CD 任务缓存的文件或目录。
 - `artifacts`: 指定 CI/CD 任务生成的文件或目录。
@@ -94,7 +94,7 @@ deploy:
   # 除了develop分支外，其他分支都不执行
   except:
     - develop
-  # 标签为production
+  # runner标签为production
   tags:
     - production
   # 定义环境变量
