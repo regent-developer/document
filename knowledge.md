@@ -4995,3 +4995,6 @@ AlphaGo 的进化速度非常之快，AlphaGo Lee（即跟李世乭对战的版�
 
 ## BERT 模型
 2018 年 10 月 11 日，谷歌 AI 团队发布开源 BERT 模型。BERT 的全称是 Bidirectional Encoder Representation fromTransformers（基于 Transformer 的双向编码器表征），被认为是当前最强的 NLP 预训练模型。BERT 在机器阅读理解顶级测试 SQuAD1.1 中表现惊人。
+
+## ARPANET 项目
+1967 年 10 月，致力于计算机互联的 ARPANET 项目开启。罗伯茨发表了一篇名为“Multiple Computer Networks and Intercomputer Communication”的文章，提出建立 ARPANET 的设想。之后，他开始规划 “Resource Sharing Computer Networks”项目（ARPANET）。
