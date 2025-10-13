@@ -4998,3 +4998,6 @@ AlphaGo 的进化速度非常之快，AlphaGo Lee（即跟李世乭对战的版�
 
 ## ARPANET 项目
 1967 年 10 月，致力于计算机互联的 ARPANET 项目开启。罗伯茨发表了一篇名为“Multiple Computer Networks and Intercomputer Communication”的文章，提出建立 ARPANET 的设想。之后，他开始规划 “Resource Sharing Computer Networks”项目（ARPANET）。
+
+## Netscape Navigator
+1994 年 10 月 13 日，网景发布浏览器 Mosaic Netscape 0.9。同年 12 月 15 日，经修正后的 1.0 版发布，改名为 Netscape Navigator 1.0。Netscape Navigator 是第一个被广泛使用的互联网浏览器，20 世纪 90 年代中期其市场占有率曾一度高达90%。
