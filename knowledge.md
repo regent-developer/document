@@ -5071,3 +5071,6 @@ BNF（Backus-Naur Form，巴科斯－诺尔范式）是一种上下文无关语�
 
 ## Android beta 版公开发布
 2007 年 11 月 5 日，Android beta 版公开发布。Android 是一个基于 Linux 内核的开源移动操作系统，最初由安迪·鲁宾等人成立的 Android Inc.设计与开发，一开始是面向数码相机的，后来发现市场需求不够大，而当时智能手机用户快速增长，于是调整为一款移动操作系统。
+
+## Long Short-Term Memory
+1997 年 11 月，长短时记忆网络 LSTM 诞生。霍赫赖特和施密德胡伯在《计算神经科学》发表经典论文“Long Short-Term Memory”，详细解释了 LSTM（长短时记忆网络）——机器学习领域一个里程碑式发现。LSTM 解决了循环神经网络存在的梯度消失问题。
