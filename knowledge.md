@@ -5119,3 +5119,6 @@ BNF（Backus-Naur Form，巴科斯－诺尔范式）是一种上下文无关语�
 
 ## 第一个 ARPANET 连接建立
 1969 年 11 月 21 日，第一个 ARPANET 连接建立。这一天，在加州大学洛杉矶分校和斯坦福研究院（SRI）之间建立了第一个永久性的 ARPANET 连接，其首批四个节点中的两个首先连接成功，另外两个是加州大学圣塔芭芭拉分校和犹他大学，在 12 月 5 日创建连接完毕。
+
+## RISC 是 CPU 的一种设计模式
+1980 年，大卫·帕特森创造 RISC 一词。RISC 是 CPU 的一种设计模式，名称最早来自帕特森在加州大学伯克利分校主持的 Berkeley RISC 计划。帕特森和 Séquin在 1981 年发表的论文“RISC I: A Reduced Instruction Set VLSI Computer”介绍了 RISC。
