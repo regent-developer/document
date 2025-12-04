@@ -5155,3 +5155,6 @@ BNF（Backus-Naur Form，巴科斯－诺尔范式）是一种上下文无关语�
 
 ## MIT 发布 Scheme
 1975 年 12 月，MIT 发布 Scheme。Scheme 是一种函数式编程语言，是 Lisp 的两种主要方言之一。Scheme 最早由 MIT 的史提尔和萨斯曼设计，曾经作为计算机学生的入门编程语言相当受欢迎。经典图书《计算机程序的构造和解释》就是使用 Scheme 来解释程序的。
+
+## JavaScript
+1995 年 12 月 4 日，网景与 Sun 联合发布了 JavaScript。JavaScript 1.0 版本随 Netscape Navigator 2 发布。经过多年的发展，如今的JavaScript 已经非常强大，是一门动态类型的高级语言，支持面向对象、命令式以及函数式编程。
