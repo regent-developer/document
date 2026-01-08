@@ -5257,3 +5257,6 @@ World!","Hello, World!大概是全世界最流行的代码，许多初学者运�
 
 ## Sketchpad 诞生
 1963 年 1 月 7 日，计算机辅助绘图系统 Sketchpad 诞生。在自己的 MIT（麻省理工学院）博士论文中，苏泽兰开发了革命性的计算机程序 Sketchpad。借助这个程序，使用者可以用光电笔在电子管显示器上作图（而彼时光电笔刚刚发明）。
+
+## Art of Compiling Statistics
+1889 年 1 月 8 日，Art of Compiling Statistics 专利开始生效。基于 Art of Compiling Statistics，赫尔曼·何乐礼发明了打孔卡片和打孔卡制表机，在 1890 年美国人口普查工作中发挥了极大作用（前所未有地节省了时间）。
