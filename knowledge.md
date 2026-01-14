@@ -5272,3 +5272,6 @@ World!","Hello, World!大概是全世界最流行的代码，许多初学者运�
 
 ## 《2001：太空漫游》
 1997 年 1 月 12 日，HAL 9000 开始运行。根据出厂设定，《2001：太空漫游》中虚构的 HAL 9000 计算机在 1997 年的今天开始运行。根据原作，HAL（Heuristicallyprogrammed ALgorithmic computer，启发式程序化演算计算机）
+
+## 雅虎（Yahoo!）
+1994 年 1 月，杨致远和大卫·费罗创立雅虎。雅虎（Yahoo!）一开始叫 Jerry and David’s Guide to the World Wide Web，当时网络信息杂乱无序，杨致远和费罗按照类别对网站进行整理分类，帮助网络新手有效查找、识别和编辑互联网上的数据。
