@@ -5386,3 +5386,6 @@ Plan 9 是 Plan 9 from Bell Labs 的简称，即贝尔实验室 9 号项目。�
 
 ## Python
 "print ""Happy Birthday to Python!"" 1991 年 2 月 20 日，Python 正式发布。30 年前的今天，吉多·范罗苏姆正式对外公布 Python 代码，版本为 0.9.0。巧的是，Python 3.2.0 恰好是 20 年之后发布的。当前，Python 稳定版为 3.9.1。"
+
+## Camelot
+1991 年春天，Camelot 的基本功能敲定。Camelot 是无处不在的电子文档格式 PDF 的前身，其设计者是 Adobe 联合创始人约翰·沃诺克。如今的 PDF 文件除了包括文本、字形、图形等基本文档信息，还包括注释、表单、图层、富媒体之类的交互元素，还能进行加密、数字签名等操作。
