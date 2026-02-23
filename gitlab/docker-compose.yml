@@ -1,0 +1,54 @@
+# GitLab Docker Compose Configuration
+# Author: KO
+# Created: 2026-02-18
+# Modified: 2026-02-18
+
+version: '3.8'
+
+services:
+  gitlab:
+    image: 'gitlab/gitlab-ce:latest'
+    restart: always
+    hostname: 'gitlab.example.com'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'http://gitlab.example.com'
+        gitlab_rails['gitlab_shell_ssh_port'] = 2222
+        gitlab_rails['time_zone'] = 'Asia/Shanghai'
+        # 数据库配置
+        postgresql['shared_buffers'] = '256MB'
+        # Redis 配置
+        redis['maxmemory'] = '256mb'
+        # 减少内存使用
+        puma['worker_processes'] = 2
+        sidekiq['concurrency'] = 10
+        # 日志配置
+        gitlab_rails['log_level'] = 'warn'
+        # 备份配置
+        gitlab_rails['backup_keep_time'] = 604800
+    ports:
+      - '80:80'
+      - '443:443'
+      - '2222:22'
+    volumes:
+      - './config:/etc/gitlab'
+      - './logs:/var/log/gitlab'
+      - './data:/var/opt/gitlab'
+    shm_size: '256m'
+    networks:
+      - gitlab-network
+
+  gitlab-runner:
+    image: 'gitlab/gitlab-runner:latest'
+    restart: always
+    volumes:
+      - './runner/config:/etc/gitlab-runner'
+      - '/var/run/docker.sock:/var/run/docker.sock'
+    networks:
+      - gitlab-network
+    depends_on:
+      - gitlab
+
+networks:
+  gitlab-network:
+    driver: bridge
