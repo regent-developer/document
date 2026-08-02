@@ -5854,3 +5854,5 @@ QWERTY 是现如今广泛使用的计算机键盘布局。这种键盘布局最�
 ## Machine Learning
 "1959 年 7 月，塞缪尔首创 Machine Learning 一词。塞缪尔在“Some Studies in Machine Learning Using theGame of Checkers”一文中给 Machine Learning 下了个非正式定义：没有明确编程指令的情况下，能让计算机学习的研究领域就是机器学习。"
 
+## Friend-to-Friend
+"2002 年 8 月，丹·布兰克林提出 Friend-to-Friend 网络。Friend-to-Friend 是一种 P2P 网络，用户只能和自己认识的人建立直接连接。与其他类型的私人 P2P 不同，除了自己的朋友圈外，Friend-to-Friend 网络中的用户无法知道其他参与人。"
