@@ -5931,3 +5931,6 @@ QWERTY 是现如今广泛使用的计算机键盘布局。这种键盘布局最�
 
 ## Linux 诞生
 "1991 年 8 月 25 日，Linux 诞生。21 岁的林纳斯·托瓦兹在 comp.os.minix 用户组发布了自己的小项目，也就是后来的 Linux 内核。Linux：超预期Minix 在生产环境中存在的不足是林纳斯编写 Linux 的动机之一 （Minix 见 3 月 4 日）。"
+
+## Linux 诞生
+"1991 年 8 月 25 日，Linux 诞生。21 岁的林纳斯·托瓦兹在 comp.os.minix 用户组发布了自己的小项目，也就是后来的 Linux 内核。Linux：超预期Minix 在生产环境中存在的不足是林纳斯编写 Linux 的动机之一 （Minix 见 3 月 4 日）。"
