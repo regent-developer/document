@@ -6081,3 +6081,6 @@ QWERTY 是现如今广泛使用的计算机键盘布局。这种键盘布局最�
 
 ## FORTRAN
 "1954 年 9 月，第一个 FORTRAN 程序成功运行。FORTRAN 是 FORmula TRANslator 的缩写，由 IBM 公司约翰·巴科斯领导的团队开发而来。FORTRAN 是世界上第一种广泛使用的高级编程语言，在数值计算领域影响深远；FORTRAN 也是第一种真正意义上的编程语言。"
+
+## FORTRAN
+"1954 年 9 月，第一个 FORTRAN 程序成功运行。FORTRAN 是 FORmula TRANslator 的缩写，由 IBM 公司约翰·巴科斯领导的团队开发而来。FORTRAN 是世界上第一种广泛使用的高级编程语言，在数值计算领域影响深远；FORTRAN 也是第一种真正意义上的编程语言。"
