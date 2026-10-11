@@ -6099,3 +6099,6 @@ QWERTY 是现如今广泛使用的计算机键盘布局。这种键盘布局最�
 
 ## Usenet 访问
 "1993 年 9 月，美国在线开始向普通用户提供 Usenet 访问。1993 年互联网的准入门槛开始降低，成为面向所有人的服务。9 月，美国在线追随一家名为 Delphi 的小竞争对手，开放了 一个能让普通用户访问的互联网新闻组和公告板的门户，标志着变革的正式开始。"
+
+## BERT 模型
+2018 年 10 月 11 日，谷歌 AI 团队发布开源 BERT 模型。BERT 的全称是 Bidirectional Encoder Representation fromTransformers（基于 Transformer 的双向编码器表征），被认为是当前最强的 NLP 预训练模型。BERT 在机器阅读理解顶级测试 SQuAD1.1 中表现惊人。
