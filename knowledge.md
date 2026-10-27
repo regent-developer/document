@@ -6156,3 +6156,6 @@ BNF（Backus-Naur Form，巴科斯－诺尔范式）是一种上下文无关语�
 
 ## 首个横幅广告上线
 1994 年 10 月 27 日，首个横幅广告上线。wired.com 推出了一则 AT&T 的广告：Have you ever clicked your mouse right here? You will。据说这是 Web 页面上的首个横幅广告，自此之后，横幅广告再也没有淡出人们的视野。
+
+## 首个横幅广告上线
+1994 年 10 月 27 日，首个横幅广告上线。wired.com 推出了一则 AT&T 的广告：Have you ever clicked your mouse right here? You will。据说这是 Web 页面上的首个横幅广告，自此之后，横幅广告再也没有淡出人们的视野。
